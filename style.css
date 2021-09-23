@@ -1,0 +1,26 @@
+body {
+    background-image: url('back_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main li{
+    display: block;
+    
+}
+
+.codecademy li {
+    display: block;
+    line-height: 2em;
+}
+
+h3 {
+    color: #F3F03E;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
