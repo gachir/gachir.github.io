@@ -1,10 +1,11 @@
 body {
+    margin: 0 auto;
+    padding: 0;
     background-image: url('back_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
+    
     min-height: 700px;
 }
 
