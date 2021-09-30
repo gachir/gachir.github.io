@@ -4,8 +4,10 @@ body {
     background-image: url('back_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     box-sizing: border-box;
     height: 1024px;
+    text-align: center;
 }
 
 .main {
@@ -29,15 +31,15 @@ body {
     font-size: 14px;
     
 }
-
 .codecademy li {
     display: block;
     line-height: 2em;
+    
 }
 
 h3 {
     color: #F3F03E;
-    text-align: left;
+    
 }
 
 a {
