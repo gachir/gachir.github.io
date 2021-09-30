@@ -1,8 +1,23 @@
 body {
+    margin: 0 auto;
+    padding: 0;
     background-image: url('back_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     box-sizing: border-box;
+    height: 950px;
+    text-align: center;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.main {
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: left;
+    font-size: 14px;
     
 }
 
@@ -11,16 +26,25 @@ body {
     
 }
 
+.codecademy {
+    width: 30%;
+    text-align: left;
+    margin-top: 2%;
+    font-size: 14px;
+    
+}
 .codecademy li {
     display: block;
     line-height: 2em;
+    
 }
 
 h3 {
     color: #F3F03E;
-    text-align: left;
+    
 }
 
 a {
     color: white;
 }
+
