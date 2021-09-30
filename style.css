@@ -4,9 +4,9 @@ body {
     background-image: url('back_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     box-sizing: border-box;
-    
-    min-height: 900px;
 }
 
 .main li{
