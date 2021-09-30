@@ -1,22 +1,11 @@
 body {
-    margin: 0 auto;
-    padding: 0;
     background-image: url('back_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     box-sizing: border-box;
-    height: 1024px;
-    
-}
-
-.main {
-    
-    margin-top: 0%;
-    margin-left: 0%;
-    text-align: left;
-    font-size: 14px;
-    
+    margin: 0 auto;
+    padding: 0;
+    min-height: 700px;
 }
 
 .main li{
@@ -24,25 +13,16 @@ body {
     
 }
 
-.codecademy {
-    
-    text-align: left;
-    margin-top: 2%;
-    font-size: 14px;
-    
-}
 .codecademy li {
     display: block;
     line-height: 2em;
-    
 }
 
 h3 {
     color: #F3F03E;
-    
+    text-align: left;
 }
 
 a {
     color: white;
 }
-
