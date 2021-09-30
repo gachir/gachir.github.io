@@ -8,8 +8,25 @@ body {
     height: 1024px;
 }
 
+.main {
+    width: 30%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
 .main li{
     display: block;
+    
+}
+
+.codecademy {
+    width: 30%;
+    text-align: left;
+    margin-top: 2%;
+    font-size: 14px;
     
 }
 
