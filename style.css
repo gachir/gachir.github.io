@@ -1,50 +1,39 @@
 body {
     margin: 0 auto;
     padding: 0;
-    background-image: url('back_image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     box-sizing: border-box;
-    height: 950px;
     text-align: center;
     max-width: 1000px;
     min-width: 500px;
-}
-
-.main {
-    width: 30%;
-    margin-top: 0%;
-    margin-left: 0%;
-    text-align: left;
-    font-size: 14px;
+    background-color: blue;
     
 }
 
-.main li{
-    display: block;
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border-style: groove;
+}
+
+#heading {
+    margin-bottom: 15px;
+}
+ .link_title li {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 20%;
     
 }
 
-.codecademy {
-    width: 30%;
-    text-align: left;
-    margin-top: 2%;
-    font-size: 14px;
-    
-}
-.codecademy li {
-    display: block;
-    line-height: 2em;
-    
-}
-
-h3 {
+.main p {
     color: #F3F03E;
+    font-family: cursive;
     
 }
 
-a {
+.main a {
     color: white;
+    font-family: cursive;
 }
 
