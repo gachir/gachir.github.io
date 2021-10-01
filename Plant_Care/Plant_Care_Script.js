@@ -131,12 +131,24 @@ const messageOutPut = () => {
     
       }}}
 //console.log(messageOutPut())
+//message = messageOutPut();
+  
+//let el = document.getElementById('message');
+//el.textContent = message;
+
 message = messageOutPut();
   
 let el = document.getElementById('message');
-el.textContent = message;
-
-
+messContent = function() {
+  message = messageOutPut();
+  el.textContent = message;
+  
+}
+messContentNext = function() {
+  el.textContent = 'Next Message';
+}
+el.addEventListener('mouseover', messContent);
+el.addEventListener('mouseout', messContentNext);
 
 
 
