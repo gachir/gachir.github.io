@@ -4,14 +4,14 @@ body {
     box-sizing: border-box;
     text-align: center;
     max-width: 1000px;
-    min-width: 500px;
+    min-width: 300px;
     background-color: blue;
     
 }
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 70%;
+    height: 50%;
     border-radius: 250px;
     border-style: groove;
 }
@@ -28,12 +28,19 @@ img {
 
 .main p {
     color: #F3F03E;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
 .main a {
     color: white;
-    font-family: cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+@media only screen and (max-width: 650px) {
+    .main a {
+        font-size: 12px;}
+    img {
+        margin-top: 10%;
+    }
+}

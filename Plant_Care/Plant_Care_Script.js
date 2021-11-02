@@ -1,4 +1,6 @@
 
+  
+const messageOutPut = () => {
 const plantType = ['leaves only', 'flowers', 'fruit', 'no leaves']
 let rand_Plant_Type = plantType[Math.floor(Math.random()*plantType.length)];
 
@@ -9,10 +11,7 @@ let rand_Plant_Type_1 = plantLocation[Math.floor(Math.random()*plantLocation.len
 
    
 const name1 = rand_Plant_Type + rand_Plant_Type_1;
-//console.log(name1)
-  
-const messageOutPut = () => {
-	if (name1 == name1) {
+	if (name1/* == name1*/) {
       switch (name1) {
         case ('leaves only inside with low light'):
           const userMessage = ['not overwater.', 'rotate your plants more often.', 
@@ -131,11 +130,25 @@ const messageOutPut = () => {
     
       }}}
 //console.log(messageOutPut())
-//message = messageOutPut();
-  
-//let el = document.getElementById('message');
-//el.textContent = message;
 
+//console.log(message_list);
+
+
+
+
+let button1 = document.getElementById('button');
+let output1 = document.getElementById('message');
+
+
+function content() {
+  output1.innerHTML = messageOutPut();
+}
+
+
+button1.addEventListener('click', content)
+
+
+/*
 message = messageOutPut();
   
 let el = document.getElementById('message');
@@ -149,6 +162,10 @@ messContentNext = function() {
 }
 el.addEventListener('mouseover', messContent);
 el.addEventListener('mouseout', messContentNext);
+
+*/
+
+
 
 
 
