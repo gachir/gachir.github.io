@@ -108,6 +108,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 550px;
+        height: 600px;
     }
     .about {
         width: 120%;
