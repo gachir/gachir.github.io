@@ -111,7 +111,7 @@ body {
         height: 550px;
     }
     .about {
-        width: 90%;
+        width: 110%;
         color: white;
         line-height:1.5rem;
         margin-left: 5px;
@@ -155,6 +155,7 @@ body {
 
     .team_heading {
         margin-left: 200px;
+        margin-top: 50px;
     }
 
 }
