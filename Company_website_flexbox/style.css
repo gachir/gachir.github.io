@@ -1,0 +1,194 @@
+body {
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: darkblue;
+    min-width: 450px;
+}
+
+/*Navigation bar content*/
+
+.header {
+    background-color: darkblue;
+    display: flex;
+    height: 100px;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    /*position: fixed;*/
+}
+
+.header img {
+    margin-left: -50px;
+    height: 90%;
+    border-radius: 50px;
+}
+
+a {
+    color: white;
+}
+
+/*Company information and images*/
+
+.company {
+    width: auto;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    color: white;
+}
+
+.company_name {
+    display: block;
+    margin-right: 40px;
+    margin-left: 20px;
+    width: 55%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.a img {
+    height: 80%;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 100px;
+}
+
+.e img {
+    height: 80%;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 100px;;
+}
+
+.f img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 30px;
+    position: sticky;
+    z-index: 5;
+}
+
+.technology {
+    width: auto;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.tech_text {
+    display: block;
+    margin-top: 100px;
+    width: 27%;
+    margin-left: -100px;
+    z-index: 5;
+}
+
+#video {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.g img {
+    border-radius: 40px;
+    height: 70%;
+    width: 80%;
+    margin-top: 70px;
+    border: 10px solid black;
+}
+
+footer {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+    position: relative;
+  }
+  
+  footer p {
+    margin-left: 10px;
+  }
+
+  /*--Media queries*/
+
+@media only screen and (min-width: 450px) and (max-width: 750px) {
+    .a img {
+        visibility: hidden;
+    }
+    .e img {
+        visibility: hidden;
+    }
+    .f img {
+        visibility: hidden;
+    }
+    .main {
+        display: block;
+        margin-left: 2%;
+        margin-right: auto;
+        width: 90%;
+    }
+    .header {
+        margin-left: 25%;
+        
+    }
+    .technology {
+        display: block;
+        height: 1000px;
+        
+    }
+
+    .company {
+        margin-left: 10px;
+    }
+
+    #video {
+        height: 90%;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .tech_text {
+        margin-top: 50px;
+        width: 90%; 
+        margin-left: 70px;
+        position: relative;
+        
+    }
+
+    .g {
+        text-align: center;
+    }
+    .g img {
+        border-radius: 40px;
+        height: 20%;
+        width: 30%;
+        margin-top: 20px;
+        border: 10px solid black;
+        
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+    
+    #video {
+        width: 70%;
+        height: 90%;
+    }
+    .tech_text {
+        margin-left: -240px;
+        width: 50%;
+    }
+    .g img {
+        height: 50%;
+        width: 90%;
+        margin-top: 120px;
+    }
+}
