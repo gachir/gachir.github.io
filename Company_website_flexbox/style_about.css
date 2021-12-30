@@ -108,12 +108,13 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         width: 450px;
+        height: 550px;
     }
     .about {
         width: 90%;
         color: white;
         line-height:1.5rem;
-        margin-left: 50px;
+        margin-left: 5px;
         
         font-size: 1.1rem;
     }
