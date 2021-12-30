@@ -61,6 +61,34 @@ body {
     height: 90%;
 }
 
+.team_heading {
+    margin-top: 100px;
+    margin-left: 10%;
+    color: white;
+}
+
+
+.team {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width: 80%;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+}
+
+.team p {
+    width: 20%;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: -100px;
+}
+
 /*smartphone screen size*/
 @media only screen and (min-width: 400px) and (max-width: 650px) {
     
@@ -106,6 +134,28 @@ body {
         width: 300px;
     }
 
+    .team {
+        width: 95%;
+        justify-content: space-around;
+        height: 220px;
+        margin-left: 10px;
+    }
+    .team img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team p {
+        width: 20%;
+        color: white;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .team_heading {
+        margin-left: 200px;
+    }
+
 }
 
 @media only screen and (min-width: 651px) and (max-width: 768px) {
@@ -127,6 +177,27 @@ body {
         width: 70%;
         margin-left: 10px;
     }
+    .team {
+        width: 95%;
+        justify-content: space-around;
+        height: 220px;
+        margin-left: 10px;
+    }
+    .team img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team p {
+        width: 20%;
+        color: white;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .team_heading {
+        margin-left: 200px;
+    }
    
     
 }
@@ -147,6 +218,28 @@ body {
         width: 50%;
         margin-left: 10px;
     }
+
+    .team {
+        width: 95%;
+        justify-content: space-around;
+        height: 220px;
+        margin-left: 10px;
+    }
+    .team img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team p {
+        width: 20%;
+        color: white;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    .team_heading {
+        margin-left: 200px;
+    }
     
 }
 
@@ -164,6 +257,28 @@ body {
         text-align: justify;
         width: 50%;
         margin-left: 10px;
+    }
+
+    .team {
+        width: 95%;
+        justify-content: space-around;
+        height: 220px;
+        margin-left: 10px;
+    }
+    .team img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .team p {
+        width: 20%;
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .team_heading {
+        margin-left: 200px;
     }
     
 }
