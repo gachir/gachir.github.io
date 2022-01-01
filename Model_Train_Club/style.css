@@ -1,0 +1,363 @@
+/*body styling*/
+
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16;
+    margin: 0;
+    background-color: gainsboro;
+    min-width: 450px;
+}
+
+/*header content*/
+.header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    border: black solid 1px;
+}
+
+.header h3, a {
+    color: black;
+    font-weight: bold;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+}
+
+/*club title and about*/
+.club_name {
+    margin-top: 102px;
+    width: 100%;
+    height: 720px;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.club_name h1 {
+    font-size: 3.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.club_name h2 {
+    font-size: 2.5rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.club_name h3 {
+    margin-top: 90px;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.club_name p {
+    font-size: 1.5rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 90%;
+}
+
+/*club images*/
+.club_description_title {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.club_description {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 550px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.grounds img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.warehouse img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+
+.o_guage img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.scales_heading {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.scales {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.z img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.n img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.ho img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.size img {
+    height: 100px;
+    width: 200px;
+    display: flex;
+}
+
+.o img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.g img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+.minature img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+/*Learn and Teach section*/
+.learn_teach_title {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.learn_teach_title h2 {
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.learn_teach_title p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.learn_teach {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.learn_teach div {
+    width: 200px;
+    height: 50px;
+}
+
+.learn_teach div:nth-of-type(1) {
+    margin-left: 2%;
+}
+
+
+/*Contact details*/
+.contact_title {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.form {
+    text-align: left;
+}
+
+#first-name {
+    margin-left: 20px;
+}
+#surname {
+    margin-left: 35px;
+}
+#unit {
+    margin-left: 42px;
+}
+#street-n {
+    margin-left: 26px;
+}
+#street-name {
+    margin-left: 12px;
+}
+#location {
+    margin-left: 35px;
+}
+#post {
+    margin-left: 28px;
+}
+#email {
+    margin-left: 52px;
+}
+#submit {
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+/*Small screen adjustments*/
+
+@media only screen and (min-width: 450px) and (max-width: 780px) {
+    .header h3 {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+    .header p {
+        font-size: 0.8rem;
+    }
+    .club_name {
+        height: 778px;
+    }
+    .club_name h2{
+        font-size: 2.2rem;
+    }
+    .club_name p {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+    .club_description {
+        flex-wrap: wrap;
+        height: 1550px; 
+    }
+    .grounds img{
+        height: 400px;
+        width: 400px;
+        margin-top: -100px;
+    }
+    
+    .warehouse img{
+        height: 400px;
+        width: 400px;
+    }
+    
+    .o_guage img{
+        height: 400px;
+        width: 400px;
+        margin-top: -100px;
+    }
+    .scales_heading {
+        height: 100px;
+    }
+    .scales {
+        flex-wrap: wrap;
+        justify-content:space-around;
+        height: 300px;
+        contain: content;
+    }
+    .size img {
+        height: 100px;
+        width: 150px;
+    }
+    .learn_teach_title {
+        height: 400px;
+    }
+    .learn_teach {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.4rem;
+        height: 200px;
+    }
+    .learn_teach div {
+        width: 150px;
+    }
+    .contact_title {
+        height: 50px;
+    }
+    .contact {
+        height: 400px;
+    }
+    .address {
+        width: 200px;
+    }
+    .address h3 {
+        width: 150px;
+    }
+   
+}
