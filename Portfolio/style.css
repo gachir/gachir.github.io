@@ -126,7 +126,7 @@ footer {
     }
 
     .grid-area {
-        width: 80%;
+        width: 70%;
         margin-top: 30px;
         grid-template: 400px 200px 250px/ 30% 70%;
     }
