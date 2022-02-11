@@ -3,7 +3,7 @@ body {
     font-size: 16;
     margin: 0;
     background-color: gainsboro;
-    min-width: 450px;
+    min-width: 320px;
 }
 
 nav {
@@ -126,7 +126,7 @@ footer {
     }
 
     .grid-area {
-        width: 50%;
+        width: 80%;
         margin-top: 30px;
         grid-template: 400px 200px 250px/ 30% 70%;
     }
