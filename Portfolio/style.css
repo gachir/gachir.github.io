@@ -102,10 +102,70 @@ footer {
 #time {
     font-size: 1.2rem;
 }
+/* mobile screens */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    nav h2 {
+        font-size: 1.2rem;
+    }
+
+    .navigation-items li {
+        font-size: 0.9rem;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    a:hover {
+        font-size: 1.1rem;
+    }
+
+    img {
+        height: 80%;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .grid-area {
+        width: 80%;
+        margin-top: 30px;
+        grid-template: 400px 200px 250px/ 30% 70%;
+    }
+
+    .highlight-skills {
+        font-size: 1.1rem;
+        width: 150%;
+        margin-left: 50px;
+    }
+    
+    .highlight-skills h3 {
+        font-size: 1rem;
+    }
+
+    .face-image {
+        
+    }
+    
+    .about {
+        font-size: 1.2rem;
+    }
+    
+    /*styling for list of icons showing various skills*/
+    
+    .skill-list {
+        font-size: 1rem; 
+        margin-top: 60px;
+    }
+
+    .skill-list p {
+        font-size: 0.8rem;
+        width: 12%;
+    }
+}
+
 
 /*media queries to adjust for smaller screen sizes*/
 
-@media only screen and (min-width: 450px) and (max-width: 750px) {
+@media only screen and (min-width: 480px) and (max-width: 750px) {
     nav h2 {
         font-size: 1.2rem;
     }
