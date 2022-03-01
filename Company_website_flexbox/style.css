@@ -120,7 +120,7 @@ footer {
 
   /*--Media queries*/
 
-@media only screen and (min-width: 450px) and (max-width: 750px) {
+@media only screen and (min-width: 200px) and (max-width: 750px) {
     .a img {
         visibility: hidden;
     }
