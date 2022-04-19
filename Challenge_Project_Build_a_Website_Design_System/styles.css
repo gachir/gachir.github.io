@@ -7,8 +7,8 @@
       margin: 0 auto;
       padding: 0;
       text-align: center;
-      min-width: 700px;
-      max-width: 1000px;
+      min-width: 300px;
+      max-width: 2000px;
   }
   
   h1, h2 {
@@ -40,7 +40,7 @@
 
 
   
-  .colour_range ul {
+  .colour_range {
     border: 4px black solid;
     width: 95%;
     height: 30%;
@@ -48,59 +48,97 @@
     margin-left: 10px;
     
   }
+
+  table {
+    padding: 50px;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  tr {
+    height: 120px;
+    
+  }
+  td.R1 {
+    width: 300px;
+  }
   
+  td {
+    border: 1px black solid;
+  }
+
+  .flex {
+    display: inline-flex;
+    width: 80%;
+    align-content: center;
+    border: 2px black solid;
+    flex-wrap: wrap;
+    
+  }
+  .flex ul {
+    padding: 20px;
+  }
+  .flex li {
+    padding: 10px;
+    width: 30%;
+    border: 1px solid black;
+    margin: 5px;
+    list-style: none;
+  }
   .colour_range li {
     padding: 20px;
     width: 31%;
     border: 1px solid black;
-    float: left;
     margin: 5px;
     display: inline-block;
   }
   
-  .colour_range .C1 {
+  .C1 {
     background-color: rgb(238, 252, 227);
   }
   
-  .colour_range .C2 {
+  .C2 {
     background-color: rgb(225, 241, 44);
   }
   
-  .colour_range .C3 {
+  .C3 {
     background-color: rgb(241, 44, 60);
   }
   
-  .colour_range .C4 {
+  .C4 {
     background-color: rgb(255, 255, 255);
   }
   
-  .colour_range .C5 {
+  .C5 {
     background-color: rgb(12, 73, 135);
     color: white;
     font-weight: 400;
   }
   
-  .colour_range .C6 {
+  .C6 {
     background-color: rgb(8, 48, 88);
     color: white;
     font-weight: 400;
   }
   
-  .colour_range .C7 {
+  .C7 {
     background-color: rgb(4, 30, 56);
     color: white;
     font-weight: 400;
   }
   
-  .colour_range .C8 {
+  .C8 {
     background-color: rgb(26, 130, 233);
   }
   
-  .colour_range .C9 {
+  .C9 {
     background-color: rgb(180, 214, 248);
   }
   
-  .colour_range .C10 {
+  .C10 {
     background-color: rgb(227, 239, 252);
   }
   
