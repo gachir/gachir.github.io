@@ -1,0 +1,402 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 2000px;
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    position: fixed;
+    z-index: 1;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav a {
+    color:blue;
+}
+
+.nav ul {
+    width: 30%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.nav li a:hover {
+    color:slateblue;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.empty {
+    height: 150px;
+}
+.empty1 {
+    height: 70px;
+}
+
+.intro {
+    margin: 0 auto;
+    border: 1px yellow solid;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255, 0.7);
+    height: 130px;
+    width:80%;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-body {
+    background-image: url('./images/header-img.png');
+    background-repeat: repeat;
+    background-size: contain;
+    
+}
+
+.main {
+    width: 80%;
+    border: 1px black dotted;
+    background-color: rgb(255, 255, 255, 0.7);
+    /*opacity: 0.7;*/
+    margin-left: 10%;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.list {
+    width: 45%;
+    /*border: 1px black solid;*/
+    padding: 10px;
+    position: relative;
+}
+
+.Gr-1 {
+    width: 95%;
+    height: 250px;
+    /*border: 1px blue double;*/
+    margin: 0 auto;
+    display: flex;
+    padding-top: 10px;
+    
+}
+.Gr-1-empty {
+    height: 400px;
+}
+
+.name {
+    width: 40%;
+    border: 1px black solid;
+    background-color:lavender;
+    display: block;
+    text-align: center;
+}
+
+.image {
+    width: 60%;
+    border: 1px black solid;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.popup {
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.popup img {
+    width: 420px;
+    height: 450px;
+    left: 50;
+    z-index: 50;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+.popup button {
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 5px 10px;
+    border: outset;
+}
+.popup button:hover {
+    background-color: aqua;
+}
+.popup button:active {
+    background-color: gainsboro;
+    border: inset;
+}
+
+.display {
+    width: 45%;
+    height: 450px;
+    border: 1px red solid;
+    position: sticky;
+    margin-left: 5%;
+    background-color: beige;
+    margin-top: 20px;
+    overflow-y: scroll;
+    top: 220px;
+    visibility: hidden;
+}
+.display::after {
+    visibility: hidden;
+}
+
+.dis-cont {
+    display: block;
+}
+
+#pest-description {
+    width: 95%;
+    /*border: 1px black solid;*/
+    background-color: beige;
+    margin: 0 auto;
+}
+
+#pest-description h1, h3 {
+    text-align: center;
+}
+
+.pest-image {
+    height: 100px;
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.pest-im {
+   /* border: 1px black solid;*/
+    width: 25%;
+    
+}
+
+.pest-im img {
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    height: 30px;
+    border: 2px midnightblue solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+#info:hover {
+    background-color:aquamarine;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#info:active {
+    border: inset;
+}
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    z-index: 10;
+}
+
+/* screen size 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .main {
+        width: 85%;
+        margin-left: 7%;
+    }
+    .Gr-1 {
+        height: 200px; 
+        width: 100%; 
+    }
+    .intro {
+        height: 150px;
+    }
+}
+
+/* screen size 900px */
+
+@media only screen and (max-width: 900px) {
+    .main {
+        width: 90%;
+        margin-left: 5%;
+    }
+    /* reduce text size of Gr-1 */
+    .Gr-1 {
+        font-size: 0.9rem;
+        height: 170px;
+    }
+
+    .info {
+        height: 20px;
+        margin-top: 10%;
+    }
+
+    .intro {
+        height: 170px;
+    }
+    
+    .pest-im {
+        /* border: 1px black solid;*/
+         width: 30%;
+         height: 50%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main {
+        width: 93%;
+        margin-left: 2%;
+    }
+    /* reduce text size of Gr-1 */
+    .Gr-1 {
+        font-size: 0.8rem;
+        height: 150px;
+        width: 110%;
+        margin-left: -4%;
+    }
+    .name {
+        width: 50%
+    }
+    .image {
+        width: 50%;
+    }
+
+    .info {
+        height: 12px;
+        margin-top: 5%;
+        align-self: center;
+        padding: 1px;
+    }
+
+    .intro {
+        height: 170px;
+        font-size: 0.95rem;
+    }
+    .display {
+        margin-left: 3%;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .main {
+        width: 95%;
+        margin-left: 0%;
+    }
+    /* reduce text size of Gr-1 */
+    .Gr-1 {
+        font-size: 0.6rem;
+        height: 100px;
+        width: 110%;
+    }
+
+    .info {
+        height: 10px;
+        margin-top: 5%;
+        align-self: center;
+        padding: 1px;
+    }
+
+    .intro {
+        height: 170px;
+        font-size: 0.8rem;
+    }
+
+    .display {
+        font-size: 0.8rem;
+        margin-left: 2%;
+    }
+
+    .nav {
+        font-size: 0.7rem;
+    }
+    .nav ul {
+        margin-left: -70px;
+    }
+    .nav li {
+        font-size: 0.9rem;
+    }
+   
+    .pest-im {
+        /* border: 1px black solid;*/
+         width: 65px;
+         height: 75px;
+    }
+
+    footer {
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .main {
+        width: 93%;
+    }
+    .Gr-1 {
+        font-size: 0.6rem;
+        height: 100px;
+        width: 110%;
+        margin-left: -8%;
+    }
+
+    .info {
+        height: 10px;
+        margin-top: 5%;
+        align-self: center;
+        padding: 1px;
+    }
+
+    .intro {
+        height: 170px;
+        font-size: 0.8rem;
+    }
+
+    .popup img {
+        width: 250px;
+        height: 250px;
+        left: 50;
+        z-index: 50;
+        margin-left: 3%;
+        border-radius: 20px;
+    }
+
+    .display {
+        font-size: 0.7rem;
+        margin-left: -1%;
+    }
+
+    .nav {
+        font-size: 0.6rem;
+    }
+    .nav ul {
+        margin-left: -70px;
+    }
+}
