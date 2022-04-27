@@ -46,7 +46,7 @@ const purpletop = {
     that is upright and height ranges from 60 to 200cm. It is described as a hardy and drought tolerant plant.',
     hosts: 'Purple top flowers are highly attractive to butterflies and other insects. \
     It is one of the best garden plants for butterflies, but also attracts many other insects, \
-    especially <strong>hover flies</strong> <a href="https://www.cross-pollination.uk/?p=633>link</a>. \
+    especially <strong>hover flies</strong> <a href="https://www.cross-pollination.uk/?p=633">link</a>. \
     Purpletop is a known host plant of Green vegetable bugs and possible other types of vegetable bugs.',
     observations: {'Bundaberg': ''},
     links: ['Weeds of Australia','https://keyserver.lucidcentral.org/weeds/data/media/Html/verbena_bonariensis.htm#:~:text=contaminated%20agricultural%20produce.-,Environmental%20Impact,Queensland%2C%20Tasmania%20and%20the%20ACT.',
