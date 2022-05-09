@@ -97,6 +97,19 @@ body {
     margin-top: 50px;
 }
 
+.contact h3 {
+    border: 2px midnightblue solid;
+    background-color: orange;
+    width: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1082px) {
     .contact {
         background-image: url(./images/vegBug-1.gif), url(./images/vegBug-1.gif);
