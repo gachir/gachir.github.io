@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: grid;
+    width: 95%;
+    height: 110px;
+    grid-template: repeat(1, 100px) / repeat(6, 1fr);
+    
+    margin: auto;
+}
+
+a {
+    color:blue;
+}
+
+.A1 img {
+    width: 150px;
+    height: 95px;
+    object-fit: contain;
+}
+
+.A2 {
+    grid-area: 1 / 2 / 1 / span 3;
+    align-self: stretch;
+    justify-self: center;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+
+.A5 li {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.A5 li a:hover {
+    color: #111;
+  }
+
+.A5 {
+    grid-area: 1 / 5 / 1 / span 2;
+    align-self: center;
+    justify-self: center;
+}
+
+/*--main grid container--*/
+.grid {
+    display: grid;
+    width: 95%;
+    height: 700px;
+    grid-template: repeat(9, 1fr) / repeat(3, 1fr);
+    
+    margin: auto;
+}
+
+.box {
+    border-top: 2px midnightblue double;
+}
+/* items needed for measurement*/
+.items-needed {
+    grid-area: 1 / 1 / 1 / span 3;
+    background-color: #4FFFB0;
+}
+
+.items-needed-heading {
+    height: 150px;
+}
+
+.ir-img img {
+    width: 150px;
+    height: 95px;
+    object-fit: contain;
+}
+
+.weather-meter-img img {
+    width: 150px;
+    height: 95px;
+    object-fit: contain;
+}
+
+/*light requirements*/
+.step-1 {
+    grid-area: 3 / 1 / 3 / span 2;
+    height: 150px;
+}
+
+.step-1-light-image {
+    grid-area: 3 / 3 / 3 / 3;
+}
+
+.step-1-light-image img {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+}
+
+/*Measuring*/
+.step-2 {
+    grid-area: 4 / 1 / 4 / span 2;
+    height: 150px;
+}
+
+/*Step 3*/
+.step-3-IRleaf-img {
+    grid-area: 4 / 3 / span 2 / 3;
+    border-bottom: 2px midnightblue double;
+}
+
+.step-3-IRleaf-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.step-3 {
+    grid-area: 5 / 1 / 5 / span 2;
+    height: 150px;
+    border-bottom: 2px midnightblue double;
+}

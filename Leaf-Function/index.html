@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf function</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <img src="technology_image.jpg">
+            <h1>Leaf function calculator</h1>
+            <ul>
+                <li><a href="steps.html">Measurement steps</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="empty"></div>
+    <div class="form-container">
+        <form id="raw-data" method="POST">
+            <section>
+            <label for="air-temperature"> Air temperature (&#8451;): </label>
+            <input id="air-temp" name="air-temperature" type="number" step="1" min="10" max="50" required>
+            </section> 
+            <section>
+            <label for="relativeHumidity"> Relative humidity (&percnt;): </label>
+            <input id="RH" name="relativeHumidity" type="number" step="1" min="20" max="100" required>
+            </section>
+            <section>
+            <label for="leaf-temperate"> Leaf temperature (&#8451;): </label>
+            <input id="leaf-temp" name="leaf-temperature" type="number" step="1" min="10" max="50" required>
+            </section>
+            <input type="submit" value="Calculate" />
+        </form>
+    </div>
+
+    <div class="main-container">
+        <div class="output-container">
+            <div class="water-potential-container">
+                <h2>Water Potential</h2>
+                <section class="stem-WP">
+                    <h3>Stem Water Potential (MPa)...<span id="stem-WP"></span></h3>
+                </section>
+                <section class="leaf-WP">
+                    <h3>Leaf Water Potential (MPa)...<span id="leaf-WP"></span></h3>
+                </section>
+            </div>
+            <div class="transpiration-container">
+                <h2>Transpiration</h2>
+                <section class="transpiration">
+                    <h3>Transpiration rate (mmol H2O m<sup>-2</sup> s<sup>-1</sup>)...<span id="transpiration"></span></h3>
+                </section>
+            </div>
+            <div class="conductance-container">
+                <h2>Stomatal Conductance</h2>
+                <section class="conductance">
+                    <h3>Stomatal conductance rate (mmol m<sup>-2</sup> s<sup>-1</sup>)...<span id="conductance"></span></h3>
+                </section>
+            </div>
+            <div class="photosynthesis-container">
+                <h2>Photosynthesis</h2>
+                <section class="photosynthesis">
+                    <h3>Photosynthetic rate (umol m<sup>-2</sup> s<sup>-1</sup>)...<span id="photosynthesis"></span></h3>
+                </section>
+            </div>
+
+        </div>
+    </div>
+    <div class="empty"></div>
+    <footer id="contact">
+        <div>
+            <h3>Contact </h3>
+            <p class="email">gachirgwin@gmail.com</p>
+        </div>
+    </footer>
+    </body>
+    
+    
+         
+     
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
