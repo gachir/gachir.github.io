@@ -158,6 +158,35 @@ body {
     border: inset;
 }
 
+.popup1 {
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 60%;
+}
+
+.popup1 img {
+    width: 90%;
+    height: 90%;
+    left: 50;
+    z-index: 50;
+    margin-left: 3%;
+    border-radius: 20px;
+    
+}
+.popup1 button {
+    margin: 0 auto;
+    border-radius: 40px;
+    padding: 5px 10px;
+    border: outset;
+}
+.popup1 button:hover {
+    background-color: aqua;
+}
+.popup1 button:active {
+    background-color: gainsboro;
+    border: inset;
+}
+
 .display {
     width: 45%;
     height: 450px;
@@ -196,11 +225,19 @@ body {
     justify-content: space-evenly;
     margin: 0 auto;
     flex-wrap: wrap;
+    resize: both;
 }
 .pest-im {
-   /* border: 1px black solid;*/
+    border: 1px black solid;
     width: 25%;
-    
+}
+
+.pest-im:hover {
+    border: 5px blue outset;
+}
+
+.pest-im:active {
+    border: 5px yellow inset;
 }
 
 .pest-im img {
