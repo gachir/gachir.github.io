@@ -30,6 +30,9 @@ function mallow() {
     pic3.innerHTML = `${Mallow.pest_images[0]}`;
     pic2.innerHTML = `${Mallow.pest_images[1]}`;
     pic1.innerHTML = `${Mallow.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${Mallow.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${Mallow.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${Mallow.pest_images[2]}`;
 }
 function nightshade() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -43,6 +46,9 @@ function nightshade() {
     pic3.innerHTML = `${shade.pest_images[0]}`;
     pic2.innerHTML = `${shade.pest_images[1]}`;
     pic1.innerHTML = `${shade.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${shade.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${shade.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${shade.pest_images[2]}`;
 }
 
 function thickhead() {
@@ -56,6 +62,9 @@ function thickhead() {
     pic3.innerHTML = `${crasso.pest_images[0]}`;
     pic2.innerHTML = `${crasso.pest_images[1]}`;
     pic1.innerHTML = `${crasso.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${crasso.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${crasso.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${crasso.pest_images[2]}`;
 }
 
 function amaranthus() {
@@ -70,6 +79,9 @@ function amaranthus() {
     pic3.innerHTML = `${amaranth.pest_images[0]}`;
     pic2.innerHTML = `${amaranth.pest_images[1]}`;
     pic1.innerHTML = `${amaranth.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${amaranth.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${amaranth.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${amaranth.pest_images[2]}`;
 }
 
 function gomphrena() {
@@ -84,6 +96,9 @@ function gomphrena() {
     pic3.innerHTML = `${Gomphrena.pest_images[0]}`;
     pic2.innerHTML = `${Gomphrena.pest_images[1]}`;
     pic1.innerHTML = `${Gomphrena.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${amaranth.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${amaranth.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${amaranth.pest_images[2]}`;
 }
 
 function verbenaB() {
@@ -99,6 +114,9 @@ function verbenaB() {
     pic3.innerHTML = `${purpletop.pest_images[0]}`;
     pic2.innerHTML = `${purpletop.pest_images[1]}`;
     pic1.innerHTML = `${purpletop.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${purpletop.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${purpletop.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${purpletop.pest_images[2]}`;
 }
 
 function tropicalchickweed() {
@@ -113,6 +131,9 @@ function tropicalchickweed() {
     pic3.innerHTML = `${tropChick.pest_images[0]}`;
     pic2.innerHTML = `${tropChick.pest_images[1]}`;
     pic1.innerHTML = `${tropChick.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${tropChick.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${tropChick.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${tropChick.pest_images[2]}`;
 }
 
 function Capsella() {
@@ -127,6 +148,9 @@ function Capsella() {
     pic3.innerHTML = `${capsella.pest_images[0]}`;
     pic2.innerHTML = `${capsella.pest_images[1]}`;
     pic1.innerHTML = `${capsella.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${capsella.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${capsella.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${capsella.pest_images[2]}`;
 }
 
 function Heliotrope() {
@@ -143,6 +167,9 @@ function Heliotrope() {
     pic3.innerHTML = `${heliotropium.pest_images[0]}`;
     pic2.innerHTML = `${heliotropium.pest_images[1]}`;
     pic1.innerHTML = `${heliotropium.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${heliotropium.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${heliotropium.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${heliotropium.pest_images[2]}`;
 }
 
 function Khaki() {
@@ -158,6 +185,9 @@ function Khaki() {
     pic3.innerHTML = `${khaki.pest_images[0]}`;
     pic2.innerHTML = `${khaki.pest_images[1]}`;
     pic1.innerHTML = `${khaki.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${khaki.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${khaki.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${khaki.pest_images[2]}`;
 }
 
 function Fleabane() {
@@ -173,6 +203,9 @@ function Fleabane() {
     pic3.innerHTML = `${fleabane.pest_images[0]}`;
     pic2.innerHTML = `${fleabane.pest_images[1]}`;
     pic1.innerHTML = `${fleabane.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${fleabane.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${fleabane.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${fleabane.pest_images[2]}`;
 }
 
 function Bidens() {
@@ -189,6 +222,9 @@ function Bidens() {
     pic3.innerHTML = `${cobblers.pest_images[0]}`;
     pic2.innerHTML = `${cobblers.pest_images[1]}`;
     pic1.innerHTML = `${cobblers.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cobblers.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cobblers.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cobblers.pest_images[2]}`;
 }
 
 function Potato() {
@@ -206,6 +242,9 @@ function Potato() {
     pic3.innerHTML = `${potato_weed.pest_images[0]}`;
     pic2.innerHTML = `${potato_weed.pest_images[1]}`;
     pic1.innerHTML = `${potato_weed.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${potato_weed.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${potato_weed.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${potato_weed.pest_images[2]}`;
 }
 
 /*      POPUP BOXES FOR IMAGES      */
@@ -354,6 +393,42 @@ function Potato() {
     };    
 })();
 
+
+/* pest 1    */
+(function() {    
+    var dialog = document.getElementById('pest1'); 
+    document.getElementById('image-1').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-pest1').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
+/* pest 2    */
+(function() {    
+    var dialog = document.getElementById('pest2'); 
+    document.getElementById('image-2').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-pest2').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
+/* pest 3    */
+(function() {    
+    var dialog = document.getElementById('pest3'); 
+    document.getElementById('image-3').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-pest3').onclick = function() {    
+        dialog.close();    
+    };    
+})();
 
 
 info1.addEventListener('click', function(e) {
