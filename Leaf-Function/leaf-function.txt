@@ -1,7 +1,0 @@
-Leaf function test site.
-
-Test site is designecd to test soft leaf plant function:
-
- - water potential
- - transpiration
- - photosynthesis
