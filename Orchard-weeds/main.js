@@ -1,5 +1,4 @@
 const description = document.getElementById('pest-description');
-
 const pic1 = document.getElementById('image-1');
 const pic2 = document.getElementById('image-2');
 const pic3 = document.getElementById('image-3');
@@ -17,6 +16,7 @@ const info11 = document.getElementById('info-11');
 const info12 = document.getElementById('info-12');
 const info13 = document.getElementById('info-13');
 const potato = document.getElementById('potato');
+const info14 = document.getElementById('info-14');
 
 
 function mallow() {
@@ -26,7 +26,7 @@ function mallow() {
     ${Mallow.cultural}</p><p>${Mallow.hosts}.</p><p>Uses: ${Mallow.uses}</p>\
     <p>Links: <a href='${Mallow.links[1]}' target='_blank'>${Mallow.links[0]}</a></p>\
     <p>Links: <a href='${Mallow.links[3]}' target='_blank'>${Mallow.links[2]}</a></p>\
-    <p>Field Observations:</p><p>${Object.keys(Mallow.observations)}:  ${Object.values(Mallow.observations)}</p>`;
+    <p>Field Observations:</p><p>${Mallow.observations}</p>`;
     pic3.innerHTML = `${Mallow.pest_images[0]}`;
     pic2.innerHTML = `${Mallow.pest_images[1]}`;
     pic1.innerHTML = `${Mallow.pest_images[2]}`;
@@ -42,7 +42,7 @@ function nightshade() {
     ${shade.cultural}</p><p>${shade.hosts}</p><p>Uses: ${shade.uses}</p>\
     <p>Links: <a href='${shade.links[1]}' target='_blank'>${shade.links[0]}</a></p>\
     <p>Links: <a href='${shade.links[3]}' target='_blank'>${shade.links[2]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(shade.observations)}:  ${Object.values(shade.observations)}</p>`;
+    <p>${shade.observations}</p>`;
     pic3.innerHTML = `${shade.pest_images[0]}`;
     pic2.innerHTML = `${shade.pest_images[1]}`;
     pic1.innerHTML = `${shade.pest_images[2]}`;
@@ -58,7 +58,7 @@ function thickhead() {
     ${crasso.cultural}</p><p>${crasso.hosts}.</p><p>Uses: ${crasso.uses}</p>\
     <p>Links: <a href='${crasso.links[1]}' target='_blank'>${crasso.links[0]}</a></p>\
     <p>Links: <a href='${crasso.links[3]}' target='_blank'>${crasso.links[2]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(crasso.observations)}:  ${Object.values(crasso.observations)}</p>`;
+    <p>${crasso.observations}</p>`;
     pic3.innerHTML = `${crasso.pest_images[0]}`;
     pic2.innerHTML = `${crasso.pest_images[1]}`;
     pic1.innerHTML = `${crasso.pest_images[2]}`;
@@ -75,7 +75,7 @@ function amaranthus() {
     <p>Links: <a href='${amaranth.links[1]}' target='_blank'>${amaranth.links[0]}</a></p>\
     <p>Links: <a href='${amaranth.links[3]}' target='_blank'>${amaranth.links[2]}</a>\
     <p>Links: <a href='${amaranth.links[5]}' target='_blank'>${amaranth.links[4]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(amaranth.observations)}:  ${Object.values(amaranth.observations)}</p>`;
+    <p>${amaranth.observations}</p>`;
     pic3.innerHTML = `${amaranth.pest_images[0]}`;
     pic2.innerHTML = `${amaranth.pest_images[1]}`;
     pic1.innerHTML = `${amaranth.pest_images[2]}`;
@@ -91,7 +91,7 @@ function gomphrena() {
     ${Gomphrena.cultural}</p><p>${Gomphrena.hosts}.</p><p>Uses: ${Gomphrena.uses}</p>\
     <p>Links: <a href='${Gomphrena.links[1]}' target='_blank'>${Gomphrena.links[0]}</a></p>\
     <p>Links: <a href='${Gomphrena.links[3]}' target='_blank'>${Gomphrena.links[2]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(Gomphrena.observations)}:  ${Object.values(Gomphrena.observations)}</p>`;
+    <p>${Gomphrena.observations}</p>`;
     
     pic3.innerHTML = `${Gomphrena.pest_images[0]}`;
     pic2.innerHTML = `${Gomphrena.pest_images[1]}`;
@@ -109,7 +109,7 @@ function verbenaB() {
     <p>Links: <a href='${purpletop.links[1]}' target='_blank'>${purpletop.links[0]}</a></p>\
     <p>Links: <a href='${purpletop.links[3]}' target='_blank'>${purpletop.links[2]}</a></p>\
     <p>Links: <a href='${purpletop.links[5]}' target='_blank'>${purpletop.links[4]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(purpletop.observations)}:  ${Object.values(purpletop.observations)}</p>`;
+    <p>${purpletop.observations}</p>`;
     
     pic3.innerHTML = `${purpletop.pest_images[0]}`;
     pic2.innerHTML = `${purpletop.pest_images[1]}`;
@@ -126,7 +126,7 @@ function tropicalchickweed() {
     ${tropChick.cultural}</p><p>${tropChick.hosts}.</p><p>Uses: ${tropChick.uses}</p>\
     <p>Links: <a href='${tropChick.links[1]}' target='_blank'>${tropChick.links[0]}</a></p>\
     <p>Links: <a href='${tropChick.links[3]}' target='_blank'>${tropChick.links[2]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(tropChick.observations)}:  ${Object.values(tropChick.observations)}</p>`;
+    <p>${tropChick.observations}</p>`;
     
     pic3.innerHTML = `${tropChick.pest_images[0]}`;
     pic2.innerHTML = `${tropChick.pest_images[1]}`;
@@ -143,7 +143,7 @@ function Capsella() {
     ${capsella.cultural}</p><p>${capsella.hosts}.</p><p>Uses: ${capsella.uses}</p>\
     <p>Links: <a href='${capsella.links[1]}' target='_blank'>${capsella.links[0]}</a></p>\
     <p>Links: <a href='${capsella.links[3]}' target='_blank'>${capsella.links[2]}</a></p><p>Field Observations:</p>\
-    <p>${Object.keys(capsella.observations)}:  ${Object.values(capsella.observations)}</p>`;
+    <p>${capsella.observations}</p>`;
     
     pic3.innerHTML = `${capsella.pest_images[0]}`;
     pic2.innerHTML = `${capsella.pest_images[1]}`;
@@ -162,7 +162,7 @@ function Heliotrope() {
     <p>Links: <a href='${heliotropium.links[3]}' target='_blank'>${heliotropium.links[2]}</a></p>\
     <p>Links: <a href='${heliotropium.links[5]}' target='_blank'>${heliotropium.links[4]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${Object.keys(heliotropium.observations)}:  ${Object.values(heliotropium.observations)}</p>`;
+    <p>${heliotropium.observations}</p>`;
     
     pic3.innerHTML = `${heliotropium.pest_images[0]}`;
     pic2.innerHTML = `${heliotropium.pest_images[1]}`;
@@ -180,7 +180,7 @@ function Khaki() {
     <p>Links: <a href='${khaki.links[1]}' target='_blank'>${khaki.links[0]}</a></p>\
     <p>Links: <a href='${khaki.links[3]}' target='_blank'>${khaki.links[2]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${Object.keys(khaki.observations)}:  ${Object.values(khaki.observations)}</p>`;
+    <p>${khaki.observations}</p>`;
     
     pic3.innerHTML = `${khaki.pest_images[0]}`;
     pic2.innerHTML = `${khaki.pest_images[1]}`;
@@ -198,7 +198,7 @@ function Fleabane() {
     <p>Links: <a href='${fleabane.links[1]}' target='_blank'>${fleabane.links[0]}</a></p>\
     <p>Links: <a href='${fleabane.links[3]}' target='_blank'>${fleabane.links[2]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${Object.keys(fleabane.observations)}:  ${Object.values(fleabane.observations)}</p>`;
+    <p>${fleabane.observations}</p>`;
     
     pic3.innerHTML = `${fleabane.pest_images[0]}`;
     pic2.innerHTML = `${fleabane.pest_images[1]}`;
@@ -217,7 +217,7 @@ function Bidens() {
     <p>Links: <a href='${cobblers.links[3]}' target='_blank'>${cobblers.links[2]}</a></p>\
     <p>Links: <a href='${cobblers.links[5]}' target='_blank'>${cobblers.links[4]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${Object.keys(cobblers.observations)}:  ${Object.values(cobblers.observations)}</p>`;
+    <p>${cobblers.observations}</p>`;
     
     pic3.innerHTML = `${cobblers.pest_images[0]}`;
     pic2.innerHTML = `${cobblers.pest_images[1]}`;
@@ -237,7 +237,7 @@ function Potato() {
     <p>Links: <a href='${potato_weed.links[5]}' target='_blank'>${potato_weed.links[4]}</a></p>\
     <p>Links: <a href='${potato_weed.links[7]}' target='_blank'>${potato_weed.links[6]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${Object.keys(potato_weed.observations)}:  ${Object.values(potato_weed.observations)}</p>`;
+    <p>${potato_weed.observations}</p>`;
     
     pic3.innerHTML = `${potato_weed.pest_images[0]}`;
     pic2.innerHTML = `${potato_weed.pest_images[1]}`;
@@ -246,6 +246,27 @@ function Potato() {
     document.getElementById('insect2').innerHTML = `${potato_weed.pest_images[1]}`;
     document.getElementById('insect1').innerHTML = `${potato_weed.pest_images[2]}`;
 }
+
+function willowherb() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${willowHerb.common_name}</h1> <h3>(<em>${willowHerb.botanical_name}</em>)</h3> <p> \
+    ${willowHerb.cultural}</p><p>${willowHerb.hosts}.</p><p>Uses: ${willowHerb.uses}</p>\
+    <p>Links: <a href='${willowHerb.links[1]}' target='_blank'>${willowHerb.links[0]}</a></p>\
+    <p>Links: <a href='${willowHerb.links[3]}' target='_blank'>${willowHerb.links[2]}</a></p>\
+    <p>Links: <a href='${willowHerb.links[5]}' target='_blank'>${willowHerb.links[4]}</a></p>\
+    <p>Links: <a href='${willowHerb.links[7]}' target='_blank'>${willowHerb.links[6]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${willowHerb.observations}</p>`;
+    
+    pic3.innerHTML = `${willowHerb.pest_images[0]}`;
+    pic2.innerHTML = `${willowHerb.pest_images[1]}`;
+    pic1.innerHTML = `${willowHerb.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${willowHerb.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${willowHerb.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${willowHerb.pest_images[2]}`;
+}
+
 
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
@@ -393,6 +414,18 @@ function Potato() {
     };    
 })();
 
+/* WILLOWHERB    */
+(function() {    
+    var dialog = document.getElementById('willHerb'); 
+    document.getElementById('willow').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-willow').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
 
 /* pest 1    */
 (function() {    
@@ -429,6 +462,8 @@ function Potato() {
         dialog.close();    
     };    
 })();
+
+
 
 
 info1.addEventListener('click', function(e) {
@@ -483,27 +518,7 @@ info13.addEventListener('click', function(e) {
     e.preventDefault();
     Potato();
 })
-
-
-/* SEARCH BAR SCRIPT */
-
-/*const commonName = function() {
-    const comName = document.getElementById('common');
-    const sciName = document.getElementById('sci');
-    if (comName) {
-    for (let key in combined) {
-        let obj = combined[key].common_name;
-        let list = document.createElement("option");
-        list.innerText = obj;
-        document.querySelector('#searchItems').appendChild(list);
-    }
-}
-
-
-
-combine.forEach(function(item) {
-    let list = document.createElement("option");
-    list.innerText = item;
-  
-     document.querySelector('#searchItems').appendChild(list);
-      })*/
+info14.addEventListener('click', function(e) {
+    e.preventDefault();
+    willowherb();
+})
