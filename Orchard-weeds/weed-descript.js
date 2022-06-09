@@ -13,7 +13,7 @@ const Mallow = {
     farms apply.',
     hosts: '<p>Mallow can act as a reserviour for a number of important viruses, as well as whitefly and thrips. \
     Importantly, Mallow is a host for various vegetable bugs that can cause significant levels of fruit drop when fruit are small.',
-    observations: {'Bundaberg': 'whitefly'},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.',
     links: ['UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0008/281996/une_weeds_mallow.pdf', 'UC IPM', 
 'http://ipm.ucanr.edu/PMG/PESTNOTES/pn74127.html', 'Australian wine research institute', 
 'https://www.awri.com.au/industry_support/viticulture/weed-management/weeds/mallow/' ],
@@ -31,7 +31,7 @@ const Gomphrena = {
 	It is considered invasive and fast growing. It is reported to be toxic to mamals.',
     hosts: 'There is not a lot of information on this plant, but this species and other species of Gomphrena attract range of insects, \
 	some of which are considered beneficial. Aphids are a known problem of this plant.',
-    observations: {'Bundaberg': '....'},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.',
     links: ['Insectary Plants: Flower Power for Natural Enemies of Vegetable Pests',
 	'https://ag.umass.edu/sites/ag.umass.edu/files/pdf-doc-ppt/insectary_plants_factsheet_legrand_0.pdf',
 	 'WSSA', 'https://ag.umass.edu/sites/ag.umass.edu/files/pdf-doc-ppt/insectary_plants_factsheet_legrand_0.pdf'],
@@ -52,7 +52,7 @@ const purpletop = {
     It is one of the best garden plants for butterflies, but also attracts many other insects, \
     especially <strong>hover flies</strong> <a href="https://www.cross-pollination.uk/?p=633">link</a>. \
     Purpletop is a known host plant of Green vegetable bugs and possibly other types of vegetable bugs.',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.',
     links: ['Weeds of Australia','https://keyserver.lucidcentral.org/weeds/data/media/Html/verbena_bonariensis.htm#:~:text=contaminated%20agricultural%20produce.-,Environmental%20Impact,Queensland%2C%20Tasmania%20and%20the%20ACT.',
     'International Environmental Weed Foundation (IEWF)', 'https://www.iewf.org/weedid/Verbena_bonariensis.htm', 
 'Cabi', 'https://www.cabi.org/isc/datasheet/56181'],
@@ -74,7 +74,8 @@ const crasso = {
     hosts: 'Crassocephalum crepidioides has been used successfully as a trap plant to collect adult corm weevils in banana plantations. \
     Aecidium crassocephali (rust) and Cercospora (grey leaf spot) are known to impact this plant. A number of aphids \
     are also known to attack this plant. ',
-    observations: {'Bundaberg': 'Vegetable bugs have been observed'},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form. \
+    <br>Bundaberg: Green vegetable bug and Green potato bugs',
     links: ['Brisbane weeds', 'https://weeds.brisbane.qld.gov.au/weeds/thickhead', 'IFAS Extension', 
 'https://edis.ifas.ufl.edu/publication/EP534', 'Useful tropical plants', 
 'https://tropical.theferns.info/viewtropical.php?id=Crassocephalum+crepidioides', 'Cabi', 
@@ -92,7 +93,8 @@ const amaranth = {
     Amaranth is reported to have C4 photosynthesis and has been found to grow best in intermediate light intensities. ',
     hosts: 'Various viruses and pests are known to impact this Green amaranth. This includes \
     caterpillars, cucumber mosaic virus, tomato spotted wilt virus, root-knot nematodes, thrips, and aphids.',
-    observations: {'Bundaberg': 'Green vegetable bug and Green potato bugs'},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form. \
+    <br>Bundaberg: Green vegetable bug and Green potato bugs',
     links: ['Cabi', 'https://www.cabi.org/isc/datasheet/4654', 'Brisbane weeds', 
 'https://weeds.brisbane.qld.gov.au/weeds/green-amaranth', 'UNE', 
 'https://www.une.edu.au/__data/assets/pdf_file/0008/378188/une-weeds-amaranth.pdf'],
@@ -111,7 +113,7 @@ const shade = {
      A study showed that blackberry nightshade was highly allelopathic with a number of plants.',
     hosts: "Blackberry nightshade hosts a range of insect pests, diseases, nematodes, \
     bacteria, fungi and viruses detrimental multiple crops. It is a known host of Green vegetable bugs.",
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/solanum_nigrum.htm', 
 'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0020/305471/une-weeds-blackberry-nightshade.pdf'],
     pest_images: ["<img src='./images/GPB.png'>", "<img src='./images/GVB-1.png'>", "<img src='./images/mealy.png'>"]
@@ -129,7 +131,7 @@ const tropChick = {
     It tolerates a broad range of soil conditions, including seasonal waterlogging. It is reported to be poisonous \
     to cattle.',
     hosts: '',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['Cabi', 'https://www.cabi.org/isc/datasheet/20020', 'Brisbane weeds', 'https://weeds.brisbane.qld.gov.au/weeds/tropical-chickweed', 
     'Australian Tropical Rainforest Plants', 'https://apps.lucidcentral.org/rainforest/text/entities/drymaria_cordata.htm'],
     pest_images: ["<img src=''>", "<img src=''>", "<img src=''>"]
@@ -147,7 +149,7 @@ const capsella = {
     hosts: 'In one long term study, it was found that <em>Capsella bursa-pastoris</em> is a significant \
     host plant for aphids as well as their parasitoids and hyperparasitoids \
     <a href="https://www.mdpi.com/2075-4450/12/8/744#:~:text=A%20long%2Dterm%20survey%20revealed,were%20identified%20on%20this%20weed." target="_blank">link</a>',
-    observations: {'Bundaberg': 'Various spiders'},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['International Environmental Weed Foundation (IEWF)', 'https://www.iewf.org/weedid/Capsella_bursa-pastoris.htm', 
     'Plants For A Future', 'https://pfaf.org/User/plant.aspx?LatinName=Capsella+bursa-pastoris'],
     pest_images: ["<img src='./images/aphids.png'>", "<img src='./images/spider.png'>", "<img src=''>"]
@@ -165,7 +167,7 @@ const heliotropium = {
     (<a href="https://en.wikipedia.org/wiki/Pyrrolizidine_alkaloid">wiki</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/31145604/">J \
     Agric Food Chem</a>).',
     hosts: 'Aphids, whiteflies, mites and thrips impact  this plant',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/heliotropium_amplexicaule.htm',
      'General plant info', 'https://plants.ces.ncsu.edu/plants/heliotropium-amplexicaule/', 'NSW WeedWise',
     'https://weeds.dpi.nsw.gov.au/Weeds/Details/19'],
@@ -187,7 +189,7 @@ const khaki = {
     it is also reported to cause hayfever, asthma and dermatitis.',
     hosts: 'There is not much information of pests and diseases associated with this plant. Other species of Alternanthera\
      can be impacted by caterpillars, mealybugs, aphids, whitefly, vine weevil and botrytis.',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['Agriculture Victoria', 'https://agriculture.vic.gov.au/biosecurity/weeds/priority-weeds/khaki-weed', 
 'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/alternanthera_pungens.htm'],
     pest_images: ["<img src='./images/aphids.png'>", "<img src='./images/mealy.png'>", "<img src='./images/thrips.png'>"]
@@ -207,7 +209,7 @@ const fleabane = {
     hosts: 'In its natural environment (America), a broad range of insects are known to visit this plant, from nectar feeding \
     insects to those that eat the leaves <a href="https://www.illinoiswildflowers.info/weeds/plants/horseweed.htm">link</a>. It \
     likely that there are a similarly broad range of insects visiting plants growing in Australia. ',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['Northern IWM fact sheet', 'https://www.daf.qld.gov.au/__data/assets/pdf_file/0005/65903/Flaxleaf-fleabane.pdf', 
 'Brisbane Weeds', 'https://weeds.brisbane.qld.gov.au/weeds/flaxleaf-fleabane' ],
     pest_images: ["<img src=''>", "<img src=''>", "<img src=''>"]
@@ -226,7 +228,7 @@ const cobblers = {
 	Sonchus yellow net virus, Bidens mosaic virus, <em>Cladosporium sp.</em>, <em>Alternaria sp.</em>, <em>Penicillium sp.</em>, \
 	<em>Aspergillus sp.</em> and <em>Sclerotinia sclerotiorum</em> (<a href="https://www.cabi.org/isc/datasheet/9148">Cabi</a>. \
 	See Cabi link for a more complete list pests and diseases.',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Bidens_pilosa.htm', 
 	'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/bidens_pilosa.htm', 'Cabi', 
 	'https://www.cabi.org/isc/datasheet/9148', 'Victoria Agriculture', 
@@ -251,13 +253,54 @@ const potato_weed = {
     being crop pests. Parasitized aphids have also been observed, which indicates some type of aphid Parasitoids \
     (small wasp visit potato weed. This link has a lot of useful information <a href="https://www.cabi.org/isc/datasheet/25299"\
     >Cabi</a>.',
-    observations: {'Bundaberg': ''},
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
     links: ['International Environmental Weed Foundation', 'https://www.iewf.org/weedid/Galinsoga_parviflora.htm', 'Cabi', 
 'https://www.cabi.org/isc/datasheet/25299', 'Useful tropical plants', 
 'https://tropical.theferns.info/viewtropical.php?id=Galinsoga+parviflora', 
 'Insects Associated with Weeds of the Northeastern United States:', 
 'https://academic.oup.com/ee/article/8/6/1078/2396504?login=false'],
     pest_images: ["<img src='./images/mite2.png'>", "<img src='./images/aphids.png'>", "<img src='./images/thrips.png'>"]
+}
+
+const willowHerb = {
+	common_name: 'Willowherb',
+    other_common_names: ['Glandular Willow-herb', 'American willowherb', 'slender willow herb'],
+    botanical_name: 'Epilobium ciliatum Raf.',
+    family: 'Onagraceae',
+    uses: 'Medicinal',
+    cultural: 'Willowherb is an erect perennial (sometimes annual) native to north America. Its height ranges from small to quite tall (1.9m), although\
+    often smaller in nurseries and other situations. Flowers are a pink-purple colour. Removal is best done before plants\
+    produce seed and when plants are small. Willowherb is tolerant to gylphosate in later growth stages and will re-shoot\
+    following herbicide application. There are also reports of resistance to other herbicides (atrazine, \
+        paraquat and simazine). Naturally it is found in both wet and dry areas, however in agriculture\
+    , it is often found in wet and moist sites. Plants can flower in five to six weeks following germination \
+    and mature seed four weeks later. Willowherb produces abundant wind-bourne seed and vigorous growth following\
+    germination can displace other plants. Willowherb is reported to be capable of self-pollinating.',
+    hosts: 'Powdery mildew is known to occur on this plant. It is attractive to bees, butterflies and/or birds according to \
+    one source (Daves Garden). Various aphid species are known to feed on willowherb. It is also known to attract various \
+    moth species, with larval stages feeding on the plant and adults obtaining nectar from the flowers. Thrips have also been \
+    observed on willowherb.',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form',
+    links: ['Florabase', 'https://florabase.dpaw.wa.gov.au/browse/profile/6132', 'UC IMP',
+    'http://ipm.ucanr.edu/PMG/WEEDS/willowherbs.html', 'CABI', 'https://www.cabi.org/isc/datasheet/114114',
+    'Daves Garden', 'https://davesgarden.com/guides/pf/go/188908/#b', 'Waldwissen', 
+    'https://www.waldwissen.net/en/forest-ecology/forest-fauna/insects-invertebrates/hawk-moths-and-willowherbs'],
+    pest_images: ["<img title='Click to enlarge (Aphids)' src='./images/aphids.png'>", 
+    "<img title='Click to enlarge (Powdery mildew)' src='./images/powdery.jpg'>", 
+    "<img title='Click to enlarge (Powdery mildew)' src='./images/powdery.jpg'>"]
+}
+
+/*const template = {
+	common_name: '',
+    other_common_names: [],
+    botanical_name: '',
+    family: '',
+    uses: '',
+    cultural: '',
+    hosts: '',
+    observations: {'Bundaberg': ''},
+    links: [],
+    pest_images: []
 }
 
 const template = {
@@ -271,9 +314,10 @@ const template = {
     observations: {'Bundaberg': ''},
     links: [],
     pest_images: []
-}
+}*/
 
-const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, capsella, heliotropium, khaki, fleabane, cobblers, potato_weed];
+const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
+    capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb];
 
 
 const comName = document.getElementById('common');
@@ -337,10 +381,3 @@ selected.addEventListener("submit", function (event) {
         window.scrollBy(0, rect.y);
     }
     ;})
-/*
-    // CLEAR FORM FIELD 
-    clear.addEventListener("submit", function (event) {
-        event.preventDefault();
-        document.getElementById("formData").reset();
-    });
-*/
