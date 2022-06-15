@@ -290,6 +290,50 @@ const willowHerb = {
     "<img title='Click to enlarge (Powdery mildew)' src='./images/powdery.jpg'>"]
 }
 
+const BalloonCotton = {
+	common_name: 'Balloon Cotton',
+    other_common_names: ['Narrow leaf cotton bush', 'Cape cotton', 'duck bush', 'wild cotton'],
+    botanical_name: 'Gomphocarpus fruticosus (L.) W.T. Aiton \
+    Gomphocarpus physocarpus E.Mey',
+    family: 'Apocynaceae',
+    uses: 'Medicinal. The floss from the seeds is used for stuffing pillows and is also spun \
+    into a white cotton which is used for decoration and to make into belts. Flower arrangements.',
+    cultural: 'A long lived perennial shrub growing from 0.5 to 2 metres in height. The stems and leaves contain a \
+    poisonous milky sap. Balloon Cotton or Narrow leaf cotton bush is poisonous to livestock and humans, and has caused deaths in cattle, \
+    sheep and poultry. Narrow leaf cotton bush reproduces by seed, however it can also sucker from \
+    lateral roots that are closest to the soil surface. The seeds are spread by wind and water, but can also be dispersed as a \
+    contaminant of agricultural produce, animals, machinery and other vehicles. Narrow leaf cotton bush \
+    is a common weed of grasslands, open woodlands and disturbed areas. It competes with native plants in these habitats \
+    and is capable of forming dense thickets. It is capable of resprouting following damage and \
+    is reported to have allelopathic properties.',
+    hosts: 'Balloon Cotton is a host for the lesser wanderer butterfly (Danaus chrysippus petilia) and \
+    the Monarch butterfly (Danaus plexippus) - larvae feed on the plant, while adults obtain nectar from the flowers. \
+    Aphids are reported to infest this plant. Overseas, vespid wasps are attracted to the flowers. \
+    A common vespid wasp in Australia is the Paper wasp. While adults Paper wasps feed on nectar, \
+    they catch caterpillars and other small insects to feed larvae. In a study looking at phytopasmas hosts, \
+    it was reported that the diversity of phytoplasmas detected in <em>G. physocarpus</em> suggests it is a feeding \
+    source for phytoplasma insect vectors or it has a broad susceptibility to a range of phytoplasmas (Streten). \
+    Various insects are known to visit flowers and lady beetles have also been observed Balloon Cotton. ',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form. <br>\
+    <strong>Bundaberg:</strong> Aphids and lady beetles have been observed.',
+    links: ['Useful tropical plants', 'https://tropical.theferns.info/viewtropical.php?id=Gomphocarpus+fruticosus', 
+    'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/gomphocarpus_fruticosus.htm',
+    'Butterfly House', 'http://lepidoptera.butterflyhouse.com.au/nymp/petilia.html', 'Florabase',
+    'https://florabase.dpaw.wa.gov.au/browse/profile/6587', 'Weeds of Melbourne', 
+    'https://weedsofmelbourne.org/narrow-leaved-cotton-bush-gomphocarpus-fruticosus', 'Wisconsin Horticulture', 
+    'https://hort.extension.wisc.edu/articles/balloon-plant-gomphocarpus-physocarpus/', 'Herbiguide', 
+    'http://www.herbiguide.com.au/Descriptions/hg_Swan_Plant.htm', 'JCU', 
+    'https://www.jcu.edu.au/discover-nature-at-jcu/plants/nq-weeds-by-scientific-name2/gomphocarpus-spp.', 'Brisbane Weeds',
+    'https://weeds.brisbane.qld.gov.au/weeds/balloon-cotton-bush', 'Streten', 
+    'http://era.daf.qld.gov.au/id/eprint/1320/', 'DPI', 
+    'https://www.dpi.nsw.gov.au/biosecurity/plant/bees-and-wasps/australian-paper-wasps'],
+    pest_images: [
+    "<img title='Click to enlarge (Monarc Butterfly - Ann Jones ABC)' src='./images/monarc.jpg' />",
+    "<img title='Click to enlarge (aphids)' src='./images/aphids.png' />",
+    "<img title='Click to enlarge (common paper wasp - Image: Jean and Fred, Flickr)' src='./images/paper-wasp.jpg' />"
+    ]}
+
+
 /*const template = {
 	common_name: '',
     other_common_names: [],
@@ -317,7 +361,7 @@ const template = {
 }*/
 
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
-    capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb];
+    capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton];
 
 
 const comName = document.getElementById('common');
