@@ -233,7 +233,10 @@ const cobblers = {
 	'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/bidens_pilosa.htm', 'Cabi', 
 	'https://www.cabi.org/isc/datasheet/9148', 'Victoria Agriculture', 
 	'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
-    pest_images: ["<img src=''>", "<img src=''>", "<img src=''>"]
+    pest_images: [
+        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
+        "<img src=''>", 
+        "<img src=''>"]
 }
 
 const potato_weed = {
@@ -259,7 +262,10 @@ const potato_weed = {
 'https://tropical.theferns.info/viewtropical.php?id=Galinsoga+parviflora', 
 'Insects Associated with Weeds of the Northeastern United States:', 
 'https://academic.oup.com/ee/article/8/6/1078/2396504?login=false'],
-    pest_images: ["<img src='./images/mite2.png'>", "<img src='./images/aphids.png'>", "<img src='./images/thrips.png'>"]
+    pest_images: [
+        "<img title='Click to enlarge (mites)' src='./images/mite2.png'>", 
+        "<img title='Click to enlarge (aphids)' src='./images/aphids.png'>",
+        "<img title='Click to enlarge (thrips)' src='./images/thrips.png'>"]
 }
 
 const willowHerb = {
@@ -331,22 +337,9 @@ const BalloonCotton = {
     "<img title='Click to enlarge (Monarc Butterfly - Ann Jones ABC)' src='./images/monarc.jpg' />",
     "<img title='Click to enlarge (aphids)' src='./images/aphids.png' />",
     "<img title='Click to enlarge (common paper wasp - Image: Jean and Fred, Flickr)' src='./images/paper-wasp.jpg' />"
-    ]}
-
-
-/*const template = {
-	common_name: '',
-    other_common_names: [],
-    botanical_name: '',
-    family: '',
-    uses: '',
-    cultural: '',
-    hosts: '',
-    observations: {'Bundaberg': ''},
-    links: [],
-    pest_images: []
+    ]
 }
-
+/*
 const template = {
 	common_name: '',
     other_common_names: [],
