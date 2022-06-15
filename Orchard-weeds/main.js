@@ -17,6 +17,7 @@ const info12 = document.getElementById('info-12');
 const info13 = document.getElementById('info-13');
 const potato = document.getElementById('potato');
 const info14 = document.getElementById('info-14');
+const info15 = document.getElementById('info-15');
 
 
 function mallow() {
@@ -267,6 +268,26 @@ function willowherb() {
     document.getElementById('insect1').innerHTML = `${willowHerb.pest_images[2]}`;
 }
 
+function cotton() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${BalloonCotton.common_name}</h1> <h3>(<em>${BalloonCotton.botanical_name}</em>)</h3> <p> \
+    ${BalloonCotton.cultural}</p><p>${BalloonCotton.hosts}.</p><p>Uses: ${BalloonCotton.uses}</p>\
+    <p>Links: <a href='${BalloonCotton.links[1]}' target='_blank'>${BalloonCotton.links[0]}</a></p>\
+    <p>Links: <a href='${BalloonCotton.links[3]}' target='_blank'>${BalloonCotton.links[2]}</a></p>\
+    <p>Links: <a href='${BalloonCotton.links[5]}' target='_blank'>${BalloonCotton.links[4]}</a></p>\
+    <p>Links: <a href='${BalloonCotton.links[7]}' target='_blank'>${BalloonCotton.links[6]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${BalloonCotton.observations}</p>`;
+    
+    pic3.innerHTML = `${BalloonCotton.pest_images[0]}`;
+    pic2.innerHTML = `${BalloonCotton.pest_images[1]}`;
+    pic1.innerHTML = `${BalloonCotton.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${BalloonCotton.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${BalloonCotton.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${BalloonCotton.pest_images[2]}`;
+}
+
 
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
@@ -426,6 +447,18 @@ function willowherb() {
     };    
 })();
 
+/* BALLOON COTTON    */
+(function() {    
+    var dialog = document.getElementById('balloonCotton'); 
+    document.getElementById('balloon').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-balloon').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
 
 /* pest 1    */
 (function() {    
@@ -522,3 +555,8 @@ info14.addEventListener('click', function(e) {
     e.preventDefault();
     willowherb();
 })
+info15.addEventListener('click', function(e) {
+    e.preventDefault();
+    cotton();
+})
+
