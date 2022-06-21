@@ -749,8 +749,29 @@ const sciName = document.getElementById('sci');
 const selected = document.getElementById('formData');
 
 
-sciName.addEventListener("click", () => {
+let checkbox = document.getElementById('sci');
+
+/*checkbox.addEventListener('change', e => {
+
+    if(e.target.checked)  {
+       
+        combined.forEach(function(item) {
+            let obj = item.botanical_name;
+            let list = document.createElement("option");
+            list.setAttribute('id', 'option');
+            list.innerHTML = obj;
+            document.querySelector('#searchItems').appendChild(list);
+            });
+        }   
+
+});*/
+
+
+sciName.addEventListener("change", () => {
     console.log(sciName);
+    const elements1 = document.getElementsByTagName('option');
+    console.log(elements1);
+    if (elements1.length < 1) {
   
     combined.forEach(function(item) {
         let obj = item.botanical_name;
@@ -759,10 +780,23 @@ sciName.addEventListener("click", () => {
         list.innerHTML = obj;
         document.querySelector('#searchItems').appendChild(list);
         });
+    } else {
+        clear();
+        combined.forEach(function(item) {
+            let obj = item.botanical_name;
+            let list = document.createElement("option");
+            list.setAttribute('id', 'option');
+            list.innerHTML = obj;
+            document.querySelector('#searchItems').appendChild(list);
+            });
+    }
     })
 
-comName.addEventListener("click", () => {
+comName.addEventListener("change", () => {
     console.log(comName);
+    const elements2 = document.getElementsByTagName('option');
+    console.log(elements2);
+    if (elements2.length < 1) {
   
     combined.forEach(function(item) {
         let obj = item.common_name;
@@ -770,8 +804,18 @@ comName.addEventListener("click", () => {
         list.setAttribute('id', 'option');
         list.innerHTML = obj;
         document.querySelector('#searchItems').appendChild(list);
-        });   
-});
+        });
+    } else {
+        clear();
+        combined.forEach(function(item) {
+            let obj = item.common_name;
+            let list = document.createElement("option");
+            list.setAttribute('id', 'option');
+            list.innerHTML = obj;
+            document.querySelector('#searchItems').appendChild(list);
+            });
+    }
+    })
 
 function clear() {
     combined.forEach(function(item) {
