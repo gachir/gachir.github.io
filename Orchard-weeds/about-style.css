@@ -106,6 +106,16 @@ body {
     margin: 0 auto;
 }
 
+.contact ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact li {
+    list-style: none;
+}
+
 
 @media only screen and (max-width: 1082px) {
     .contact {
