@@ -525,7 +525,7 @@ const richardia = {
     pest_images: [
         "<img title='Click to enlarge (Green vegetable bug)' src='./images/GVB.png'>", 
         "<img title='Click to enlarge (thrips)' src='./images/thrips.png'>", 
-        "<img title='Click to enlarge (Photo by: Trevor Jinks, North Burnett, Queensland - Blue Moon Butterfly)' src='./images/Blue-Moon-Butterfly.jpg'>"
+        "<img title='Click to enlarge (Photo by: Trevor Jinks, North Burnett, Queensland - Blue Moon Butterfly)' src='./images/Blue-Moon.jpg'>"
     ]
 }
 
