@@ -473,7 +473,7 @@ function Malvastrum() {
     <p>Links: <a href='${malvastrum.links[17]}' target='_blank'>${malvastrum.links[16]}</a></p>\
     <p>Links: <a href='${malvastrum.links[19]}' target='_blank'>${malvastrum.links[18]}</a></p>\
     <p>Field Observations:</p>\
-    <p>${mitracarpus.observations}</p>`;
+    <p>${malvastrum.observations}</p>`;
     
     pic3.innerHTML = `${malvastrum.pest_images[0]}`;
     pic2.innerHTML = `${malvastrum.pest_images[1]}`;
