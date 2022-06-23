@@ -86,7 +86,6 @@ body {
 .contact {
     border: 2px midnightblue dotted;
     width: 80%;
-    height: 180px;
     margin: 0 auto;
     text-align: center;
     background-image: url(./images/vegBug-1.gif), url('./images/leaf.png'), url(./images/vegBug-1.gif);
