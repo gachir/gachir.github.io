@@ -711,6 +711,53 @@ const malvastrum = {
     ]
 }
 
+const indigo = {
+	common_name: 'Creeping indigo',
+    other_common_names: ['Trailing indigo', 'indigo', 'spicate indigo', 'indigo rampant'],
+    botanical_name: '<em>Indigofera spicata</em> Forssk.',
+    family: 'Fabaceae',
+    uses: 'Mainly planted for cover, green manure and erosion control in coffee, tea and rubber plantations in the tropics \
+    and subtropics. Medicinal uses. Green manure and soil stabilizer in agroforestry. Dye source.',
+    cultural: 'Creeping indigo is a prostrate, herbaceous perennial plant with several stems radiating from a central woody stem. \
+    It is known to have a deep taproot, which is reported to reach at least 2 feet deep (see image). Creeping indigo \
+    has alternately arranged compound \
+    leaves ( 5-11 oblong leaflets, 5-25 mm long), while flowers are small pink or \
+    pinkish-orange and pea-shaped, and arranged in elongated clusters. Pods are narrow and cylindrical (15-25 mm long). \
+    It can reproduce by seed and vegetatively. Seed germination rates are low without scarification due to the hard seed coat. \
+    Plants send out trailing stems which can reach a length of 2-3 m. Rooting from nodes is also known to occur. \
+    It is a common weed of lawns, gardens, footpaths, roadsides, disturbed sites and waste areas. \
+    Heavy traffic areas, such as grass parking lots and/or heavily grazed pastures, may have an abundance of the weed. \
+    Creeping indigo is known to be poisonous to animals, with many reports of livestock and horse poisoning, as well \
+    feeding trials and field observations in the USA demonstrating that the plant was toxic for cattle, sheep, rabbits, \
+    pigs, Guinea pigs, horses and chicks). Similar to other plants in the family Fabacaea, it has the ability to fix \
+    atmospheric nitrogen.\
+    <br>',
+    hosts: 'Common pests of indigo plants (Indigo species) include root-knot nematodes, <em>Arytaina punctipennis</em> \
+    (psyllid), aphids, scale, mealybugs and spider mites. Flower visitation in the native Indigo species, <em>Indigofera australis</em> \
+    includes native bees, honey bees, wasps, flies, hoverflies, butterflies, moths and beetles (Wheen bee Foundation). Known insects \
+    of creeping indigo include <em>Spodoptera littoralis</em> (Egyptian cotton leafworm), <em>Dichomeris ianthes</em> \
+    (Alfalfa leaf tier) and <em>Omiodes (Lamprosema) diemenalis</em> (Soybean leaf roller).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'IFAS extension', 'https://edis.ifas.ufl.edu/publication/AG399',
+        'Gardening know how', 'https://www.gardeningknowhow.com/ornamental/flowers/indigo-plant/indigo-insect-pests.htm',
+        'Wheen bee foundation', 'https://www.wheenbeefoundation.org.au/wp-content/uploads/2021/08/SF001-H-8.1-Pollinators-8pp-Blue-Mountains.pdf',
+        'Useful tropical plants', 'https://tropical.theferns.info/viewtropical.php?id=Indigofera+spicata',
+        'cabi', 'https://www.cabi.org/isc/datasheet/79262',
+        'Tropical forages', 'https://www.tropicalforages.info/text/entities/indigofera_spicata.htm',
+        'Feedipedia', 'https://www.feedipedia.org/node/286',
+        'Plantnet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Indigofera~spicata',
+        'Brisbane weeds', 'https://weeds.brisbane.qld.gov.au/weeds/creeping-indigo',
+        'Butterfly house', 'http://lepidoptera.butterflyhouse.com.au/spil/diemenalis.html'
+
+    ],
+    pest_images: [
+        "<img title='Click to enlarge (Photo by  Buck Richardson, Kuranda, Queensland, Soybean leaf roller)' src='./images/leaf-bean-roller.png'>", 
+        "<img title='Click to enlarge (Aphids)' src='./images/aphids.png'>", 
+        "<img title='Click to enlarge (Mealy bug)' src='./images/mealy.png'>"
+    ]
+}
+
 const test = {
 	common_name: '',
     other_common_names: [],
@@ -741,7 +788,7 @@ const template = {
 
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
-    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum];
+    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo];
 
 
 const comName = document.getElementById('common');
