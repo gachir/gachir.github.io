@@ -25,7 +25,7 @@ const info19 = document.getElementById('info-19');
 const info20 = document.getElementById('info-20');
 const info21 = document.getElementById('info-21');
 const info22 = document.getElementById('info-22');
-
+const info23 = document.getElementById('info-23');
 
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -483,6 +483,32 @@ function Malvastrum() {
     document.getElementById('insect1').innerHTML = `${malvastrum.pest_images[2]}`;
 }
 
+function Indigo() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${indigo.common_name}</h1> <h3>(${indigo.botanical_name})</h3> <p> \
+    ${indigo.cultural}</p><p>${indigo.hosts}.</p><p>Uses: ${indigo.uses}</p>\
+    <p>Links: <a href='${indigo.links[1]}' target='_blank'>${indigo.links[0]}</a></p>\
+    <p>Links: <a href='${indigo.links[3]}' target='_blank'>${indigo.links[2]}</a></p>\
+    <p>Links: <a href='${indigo.links[5]}' target='_blank'>${indigo.links[4]}</a></p>\
+    <p>Links: <a href='${indigo.links[7]}' target='_blank'>${indigo.links[6]}</a></p>\
+    <p>Links: <a href='${indigo.links[9]}' target='_blank'>${indigo.links[8]}</a></p>\
+    <p>Links: <a href='${indigo.links[11]}' target='_blank'>${indigo.links[10]}</a></p>\
+    <p>Links: <a href='${indigo.links[13]}' target='_blank'>${indigo.links[12]}</a></p>\
+    <p>Links: <a href='${indigo.links[15]}' target='_blank'>${indigo.links[14]}</a></p>\
+    <p>Links: <a href='${indigo.links[17]}' target='_blank'>${indigo.links[16]}</a></p>\
+    <p>Links: <a href='${indigo.links[19]}' target='_blank'>${indigo.links[18]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${indigo.observations}</p>`;
+    
+    pic3.innerHTML = `${indigo.pest_images[0]}`;
+    pic2.innerHTML = `${indigo.pest_images[1]}`;
+    pic1.innerHTML = `${indigo.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${indigo.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${indigo.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${indigo.pest_images[2]}`;
+}
+
 
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
@@ -738,6 +764,18 @@ function Malvastrum() {
     };    
 })();
 
+/* INDIGO      */
+(function() {    
+    var dialog = document.getElementById('indiGO'); 
+    document.getElementById('indi').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-indi').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
 
 /* pest 1    */
 (function() {    
@@ -865,5 +903,9 @@ info21.addEventListener('click', function(e) {
 info22.addEventListener('click', function(e) {
     e.preventDefault();
     Malvastrum();
+})
+info23.addEventListener('click', function(e) {
+    e.preventDefault();
+    Indigo();
 })
 
