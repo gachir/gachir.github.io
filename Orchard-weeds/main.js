@@ -52,6 +52,7 @@ function nightshade() {
     ${shade.cultural}</p><p>${shade.hosts}</p><p>Uses: ${shade.uses}</p>\
     <p>Links: <a href='${shade.links[1]}' target='_blank'>${shade.links[0]}</a></p>\
     <p>Links: <a href='${shade.links[3]}' target='_blank'>${shade.links[2]}</a></p>\
+    <p>Links: <a href='${shade.links[5]}' target='_blank'>${shade.links[4]}</a></p>\
     <p>Field Observations:</p>\
     <p>${shade.observations}</p>`;
     pic3.innerHTML = `${shade.pest_images[0]}`;
