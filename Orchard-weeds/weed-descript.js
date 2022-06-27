@@ -147,7 +147,11 @@ const shade = {
     It competes heavily with horticultural and agricultural crops for water, light and nutrients. \
      A study showed that blackberry nightshade was highly allelopathic with a number of plants.',
     hosts: "Blackberry nightshade hosts a range of insect pests, diseases, nematodes, \
-    bacteria, fungi and viruses detrimental multiple crops. It is a known host of Green vegetable bugs.",
+    bacteria, fungi and viruses detrimental multiple crops. It is a known host of Green vegetable bugs. \
+	In a study undertaken in Cameroon, flower insect visitations were monitored for Blackberry nightshade (Mamoudou). \
+    Honey bees were a dominant visitor, but other bee types were also observed, including bees related to the Blue banded bee \
+    found in Australia. \
+    Other insects included flies, ants, various types of wasps including a type of paper wasp, and butterflies. ",
     observations: 'Please complete the form to add your observations - go to the About page to access the form. <br><br>\
     Bundaberg:<br>\
     A range of insects have been observed on this plant in the Bundaberg area, some of these include:<br>\
@@ -158,7 +162,8 @@ const shade = {
     - mealy bugs<br>',
     links: [
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/solanum_nigrum.htm', 
-        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0020/305471/une-weeds-blackberry-nightshade.pdf'],
+        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0020/305471/une-weeds-blackberry-nightshade.pdf',
+	'Mamoudou', 'https://www.ajol.info/index.php/ijbcs/article/view/214142'],
     pest_images: [
     "<img title='Click to enlarge (Green potato bug)' src='./images/GPB.png'>", 
     "<img title='Click to enlarge (Green vegetable bug)' src='./images/GVB-1.png'>", 
