@@ -26,6 +26,8 @@ const info20 = document.getElementById('info-20');
 const info21 = document.getElementById('info-21');
 const info22 = document.getElementById('info-22');
 const info23 = document.getElementById('info-23');
+const info24 = document.getElementById('info-24');
+const info25 = document.getElementById('info-25');
 
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -510,6 +512,63 @@ function Indigo() {
     document.getElementById('insect1').innerHTML = `${indigo.pest_images[2]}`;
 }
 
+function Crotalaria() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${crotalaria.common_name}</h1> <h3>(${crotalaria.botanical_name})</h3> <p> \
+    ${crotalaria.cultural}</p><p>${crotalaria.hosts}.</p><p>Uses: ${crotalaria.uses}</p>\
+    <p>Links: <a href='${crotalaria.links[1]}' target='_blank'>${crotalaria.links[0]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[3]}' target='_blank'>${crotalaria.links[2]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[5]}' target='_blank'>${crotalaria.links[4]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[7]}' target='_blank'>${crotalaria.links[6]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[9]}' target='_blank'>${crotalaria.links[8]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[11]}' target='_blank'>${crotalaria.links[10]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[13]}' target='_blank'>${crotalaria.links[12]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[15]}' target='_blank'>${crotalaria.links[14]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[17]}' target='_blank'>${crotalaria.links[16]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[19]}' target='_blank'>${crotalaria.links[18]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[21]}' target='_blank'>${crotalaria.links[20]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[23]}' target='_blank'>${crotalaria.links[22]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[25]}' target='_blank'>${crotalaria.links[24]}</a></p>\
+    <p>Links: <a href='${crotalaria.links[27]}' target='_blank'>${crotalaria.links[26]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${crotalaria.observations}</p>`;
+    
+    pic3.innerHTML = `${crotalaria.pest_images[0]}`;
+    pic2.innerHTML = `${crotalaria.pest_images[1]}`;
+    pic1.innerHTML = `${crotalaria.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${crotalaria.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${crotalaria.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${crotalaria.pest_images[2]}`;
+}
+
+function Sonchus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${sonchus.common_name}</h1> <h3>(${sonchus.botanical_name})</h3> <p> \
+    ${sonchus.cultural}</p><p>${sonchus.hosts}.</p><p>Uses: ${sonchus.uses}</p>\
+    <p>Links: <a href='${sonchus.links[1]}' target='_blank'>${sonchus.links[0]}</a></p>\
+    <p>Links: <a href='${sonchus.links[3]}' target='_blank'>${sonchus.links[2]}</a></p>\
+    <p>Links: <a href='${sonchus.links[5]}' target='_blank'>${sonchus.links[4]}</a></p>\
+    <p>Links: <a href='${sonchus.links[7]}' target='_blank'>${sonchus.links[6]}</a></p>\
+    <p>Links: <a href='${sonchus.links[9]}' target='_blank'>${sonchus.links[8]}</a></p>\
+    <p>Links: <a href='${sonchus.links[11]}' target='_blank'>${sonchus.links[10]}</a></p>\
+    <p>Links: <a href='${sonchus.links[13]}' target='_blank'>${sonchus.links[12]}</a></p>\
+    <p>Links: <a href='${sonchus.links[15]}' target='_blank'>${sonchus.links[14]}</a></p>\
+    <p>Links: <a href='${sonchus.links[17]}' target='_blank'>${sonchus.links[16]}</a></p>\
+    
+    <p>Field Observations:</p>\
+    <p>${sonchus.observations}</p>`;
+    
+    pic3.innerHTML = `${sonchus.pest_images[0]}`;
+    pic2.innerHTML = `${sonchus.pest_images[1]}`;
+    pic1.innerHTML = `${sonchus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${sonchus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${sonchus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${sonchus.pest_images[2]}`;
+}
+
+
 
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
@@ -777,6 +836,30 @@ function Indigo() {
     };    
 })();
 
+/* crotalaria      */
+(function() {    
+    var dialog = document.getElementById('crotAL'); 
+    document.getElementById('crot').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-crot').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
+/* sonchus     */
+(function() {    
+    var dialog = document.getElementById('sonCH'); 
+    document.getElementById('son').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-son').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
 
 /* pest 1    */
 (function() {    
@@ -908,5 +991,13 @@ info22.addEventListener('click', function(e) {
 info23.addEventListener('click', function(e) {
     e.preventDefault();
     Indigo();
+})
+info24.addEventListener('click', function(e) {
+    e.preventDefault();
+    Crotalaria();
+})
+info25.addEventListener('click', function(e) {
+    e.preventDefault();
+    Sonchus();
 })
 
