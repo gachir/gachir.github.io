@@ -196,26 +196,50 @@ const tropChick = {
 
 const capsella = {
 	common_name: "Shepherd's purse",
-    other_common_names: [],
+    other_common_names: ["Shepherd's purse"],
     botanical_name: '<em>Capsella bursa-pastoris</em>  (L.) Medikus',
     family: 'Brassicaceae',
-    uses: '',
+    uses: 'Medicinal.',
     cultural: "Shepherd's purse is a common weed found in many countries and can be found growing in crops, gardens, lawns, \
 	non-cultivated areas, roadsides and waste grounds. It tolerates a broad range of soils types. \
     The seeds can remain viable in the ground for several, making this persistent plant difficult to eradicate.",
-    hosts: 'In one long term study, it was found that <em>Capsella bursa-pastoris</em> is a significant \
+    hosts: "Sheperd's purse is a host for insects, fungi and viruses, including many insect pests and diseases of crops. \
+    It is reported to be a host for Alfalfa mosaic virus, Cucumber mosaic virus, Potato virus Y, \
+    Soybean dwarf virus, and Tomato spotted wilt virus. Thrips have also been recorded on shepherd's purse. \
+    In one long term study, it was found that <em>Capsella bursa-pastoris</em> is a significant \
     host plant for aphids as well as their parasitoids and hyperparasitoids \
-    <a href="https://www.mdpi.com/2075-4450/12/8/744#:~:text=A%20long%2Dterm%20survey%20revealed,were%20identified%20on%20this%20weed." target="_blank">link</a>',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form',
+    <a href='https://www.mdpi.com/2075-4450/12/8/744#:~:text=A%20long%2Dterm%20survey%20revealed,were%20identified%20on%20this%20weed.' target='_blank'>link</a>. \
+    Reported to attract wildlife including bees, flies and butterflies. Based on pollen collection results from a study \
+    Argentina, bees collected pollen from Sheperd's purse (see link below - Honeybees generalize among pollen scents...). \
+    The nectar and pollen of the flowers attract mostly short-tongued bees and flies, including honeybees, Halictid bees, \
+    Andrenid bees, Syrphid flies, Tachinid flies, flesh flies (Sarcophagidae), and blow flies (Lucilia spp.), while \
+    less often, small butterflies and skippers suck nectar from the flowers (see link below - Illinois Wildflowers). \
+    Caterpillars of two butterflies, <em>Anthocharis midea</em> (Falcate Orangetip) and <em>Pontia protodice</em> (Checkered White), \
+    feed on Shepherd's Purse (see link below - Illinois Wildflowers). \
+    ",
+    observations: 'Please complete the form to add your observations - go to the About page to access the form<br><br>\
+    Bundaberg<br>\
+    - Usually many small spiders can be found on this plant.<br>\
+    - Aphids\
+    - Ladybirds<br>',
     links: [
         'International Environmental Weed Foundation (IEWF)', 'https://www.iewf.org/weedid/Capsella_bursa-pastoris.htm', 
-        'Plants For A Future', 'https://pfaf.org/User/plant.aspx?LatinName=Capsella+bursa-pastoris'],
-    pest_images: [
+        'Plants For A Future', 'https://pfaf.org/User/plant.aspx?LatinName=Capsella+bursa-pastoris',
+        'CABI', 'https://www.cabi.org/isc/datasheet/11223',
+        'NC STATE', 'https://plants.ces.ncsu.edu/plants/capsella-bursa-pastoris/',
+        'Biology of Canadian Weeds', 'https://bioone.org/journals/canadian-journal-of-plant-science/volume-102/issue-3/CJPS-2021-0059/The-Biology-of-Canadian-Weeds-159-Capsella-bursa-pastoris-L/10.1139/CJPS-2021-0059.full#refg137',
+        "shepherd's purse", 'https://accs.uaa.alaska.edu/wp-content/uploads/Capsella_bursa-pastoris_BIO_CABU2.pdf',
+        'Honeybees generalize among pollen scents...', 'https://journals.biologists.com/jeb/article/222/21/jeb201335/224421/Honeybees-generalize-among-pollen-scents-from',
+        'IEWF', 'https://www.iewf.org/weedid/Capsella_bursa-pastoris.htm',
+        'Illinois wildflowers', 'https://www.illinoiswildflowers.info/weeds/plants/shepherd_purse.htm',
+        'Floral visitation', 'https://pubmed.ncbi.nlm.nih.gov/19784670/'
+    ],
+    pest_images: [ 
         "<img title='Click to enlarge (aphids)' src='./images/aphids.png'>", 
         "<img title='Click to enlarge (spider)' src='./images/spider.png'>", 
-        "<img title='Click to enlarge' src=''>"]
+        "<img title='(Hoverfly - photo by ABC, Libbi Gorr)' src='./images/hoverfly.png'>"
+    ]
 }
-
 const heliotropium = {
 	common_name: 'Blue Heliotrope',
     other_common_names: ['Clasping heliotrope', 'Creeping Heliotrope'],
