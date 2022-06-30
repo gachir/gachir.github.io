@@ -137,8 +137,8 @@ body {
 }
 
 .popup img {
-    width: 420px;
-    height: 450px;
+    width: 350px;
+    height: 380px;
     left: 50;
     z-index: 50;
     margin-left: 3%;
@@ -165,8 +165,8 @@ body {
 }
 
 .popup1 img {
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 50%;
     left: 50;
     z-index: 50;
     margin-left: 3%;
