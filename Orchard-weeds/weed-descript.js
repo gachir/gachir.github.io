@@ -763,6 +763,116 @@ const indigo = {
     ]
 }
 
+const crotalaria = {
+	common_name: 'Rattlepods',
+    other_common_names: [],
+    botanical_name: '<em>Crotalaria spp.</em>',
+    family: 'Fabaceae',
+    uses: 'Green manure crop. Some species are used as forage. Medicinal. \
+    Strong fibre from some species is obtained from the bark and stems and is used for cordage and making canvas',
+    cultural: 'Crotalaria is a genus in the family Fabaceae and are commonly known as rattlepods. \
+    It is a large genus and includes herbaceous plants and shrubs (annual and perennial). \
+    Flowers generally in terminal racemes and yellow in colour, although streaking/mottling (red) and other colours occur. \
+    Many species are reported toxic to stock (Colarado State University). Australia has more than 40 native species. \
+    Rattlepods often found in and around orchards are introduced species, but identification is important before clearing. \
+    Rattlepods are weeds of roadsides, railway lines, crops, pastures, disturbed sites, waste areas, parks, gardens, \
+    open woodlands and riparian vegetation. Flowers are known to attract pollinators, as well butterflies and moths.',
+    hosts: 'In a study undertaken in Hawaii, <em>Crotalaria incana</em> was recorded as plant where Green vegetable bugs (GVB) were \
+    found (Hawaii - Jones et al., 2001). It is also listed as a decoy crop for GVB, that is, lure bugs away from your main plants. \
+    Observations from another investigation showed <em>Erysiphe cichoraceum</em> \
+    (powdery mildew) was a problem in <em>Crotalaria incana</em> (powdery mildew)  (see Article). Also noted was \
+    <em>Utetheisa ornatrix</em>  (Ornate Bella Moth) - larvae feed on both the foliage and seeds \
+    (Featured Creatures - Ornate Bella Moth). The <strong>Tropical forages</strong> website comment that many pests and diseases \
+    are reported with varying degrees of economic damage for certain species of rattlepods. Rattlepods are impacted by \
+    Cowpea aphid-borne mosaic virus. \
+    The species <em>Crotalaria juncea</em> L. (Sunn Hemp), is used to add nitrogen and organic matter to the soils, \
+    for weed growth prevention, and to suppress nematode populations. It also provides nectar and pollen for pollinators \
+    and habitat for natural enemies (Environmental Entomology). Chrysomelidaeand  and Coccinellidae (ladybirds) were found \
+    in <em>Crotalaria juncea</em> and are known predators of <em>Cerotoma arcuata</em> (Kitty - pest beetle of beans) and \
+    <em>Diabrotica speciosa</em> (Cucurbit beetle) larvae (Researchgate). Ladybird larvae are also reported to feed on GVB \
+    eggs (The seed collection).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>\
+    Bundaberg:<br>\
+    Aphids on a species Crotalaria.<br>',
+    links: [
+        'RBGSYD', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=gn&name=Crotalaria',
+        'Brisbane weeds', 'https://weeds.brisbane.qld.gov.au/weeds/lance-leaved-rattlepod',
+        'Hawaii', 'https://academic.oup.com/ee/article/30/6/1028/504548?login=false',
+        'Article', 'https://thecpsjournal.files.wordpress.com/2019/10/cps2019018.pdf',
+        'Featured Creatures - Ornate Bella Moth', 'https://entnemdept.ufl.edu/creatures/beneficial/leps/bella_moth.htm',
+        'lucidcentra', 'https://keys.lucidcentral.org/keys/v3/scotia/key/Plants%20and%20Fungi%20of%20south%20western%20NSW/Media/Html/Crotalaria_incana.htm',
+        'Tropical forages', 'https://www.tropicalforages.info/text/entities/crotalaria_juncea.htm',
+        'Colarado State University', 'https://csuvth.colostate.edu/poisonous_plants/Plants/Details/39',
+        'Useful tropical plants', 'https://tropical.theferns.info/viewtropical.php?id=Crotalaria+retusa',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/87408',
+        'NC State', 'https://plants.ces.ncsu.edu/plants/crotalaria/',
+        'Environmental Entomology', 'https://academic.oup.com/ee/article/48/2/343/5312905?login=false',
+        'Researchgate', 'https://www.researchgate.net/publication/279852420_Harmful_Chrysomelidae_and_beneficial_Coccinellidae_on_organically_grown_Crotalaria_juncea_L_Fabaceae',
+        'The Seed Collection', 'https://www.theseedcollection.com.au/Green-Vegetable-Bug'
+    ],
+    pest_images: [
+        "<img title='Click to enlarge (Photo by  Laura Gaudette, Ornate Bella Moth (<em>Utetheisa ornatrix</em>)\
+        ' src='./images/ornate-bella-moth.png'>", 
+        "<img title='Click to enlarge (aphids on Crotalaria spp.)' src='./images/crotalaria-aphids.png'>", 
+        "<img title='Click to enlarge (Close-up of aphids on <em>Crotalaria spp.</em>)' src='./images/crotalaria-aphids-close.png'>",
+    ]
+}
+
+const sonchus = {
+	common_name: 'Common sowthistle',
+    other_common_names: ['annual sowthistle', 'colewort', 'field sow-thistle', 'hare’s lettuce', 'hare’s thistle', 'milk thistle'],
+    botanical_name: '<em>Sonchus oleraceus</em> L.',
+    family: 'Asteraceae',
+    uses: 'Salad vegetable and pot herb. Medicinal. Livestock feed.',
+    cultural: 'Common sowthistle is an annual and sometimes biennial herb, 40-150 cm tall, containing white latex in all plant parts. \
+    Mature leaves are thin, soft and dark-green in colour with irregularly-toothed margins and increasingly lobed with maturity. \
+    Leaves can rosette at ground level and lower leaves can be up to 25cm long. The inflorescence is a terminal panicle, with \
+    yellow flowers that are 5-6mm in diameter. \
+    Flowers are insect pollinated by bees and flies, and seeds are produced through both selfing and outcrossing. \
+    The small light seeds are easily dispersed by wind and water. \
+    Common sowthistle grows in a wide variety of environments and soils (including potting mix, saline conditions and shallow soils). \
+    It is commonly seen on roadsides, cultivated land, gardens, construction sites, sand dunes, logged or burned areas and \
+    riparian zones. Common sowthistle grows and flowers quickly, producing copious amounts of seed. \
+    Resistance to ALS-inhibiting herbicides, such as chlorsulfuron and metsulfuron-methyl have been reported in Australia.',
+    hosts: 'A variety of insects are known to feed on Sonchus species, including aphids, leaf-mining and gall-forming flies, \
+    lepidoptera, mites, and nematodes. \
+    Common sowthistle is a host to <em>Bremia sonchi</em> (downy mildew), <em>Bremia lactucae</em> (downy mildew lettuce), \
+    <em>Golovinomyces cichoracearum var. cichoracearum</em> (powdery mildew), <em>Coleosporium tussilaginis f.sp. sonchi</em> \
+    (rust fungi), <em>Podosphaera fuliginea</em> (powdery mildew), <em>Miyagia pseudosphaeria</em> (rust fungi), \
+    <em>Puccinia littoralis</em> (rust fungi), <em>Alternaria sonchi</em> (Alternaria leaf spot) and <em>Aecidium sonchi</em> \
+    (rust fungi). \
+    Viruses hosted by common sowthistle plants include lettuce necrotic yellows virus, beet yellow stunt virus (affecting \
+    sugar beets as well as lettuce), watermelon mosaic virus, and tomato spotted wilt virus (UNE). \
+    Common sowthistle is also a host for the lettuce aphid (<em>Nasonovia ribisnigri</em>) and the lettuce \
+    root aphid (<em>Pemphigus bursanus</em>) (UNE). Large sowthistle aphid (<em>Uroleucon sonchi</em>. Lantana mealybug \
+    (<em>Phenacoccus parvus</em> (Swarbrick).\
+    It has also been noted as an alternative host of the fungal pathogens black root rot (<em>Chalara elegans</em>) \
+    and corky rot (<em>Rhizomonas suberifaciens</em>) (UNE). \
+    Common sowthistle is a known host plant for Green vegetable bugs (NZAC FACT SHEET). Green vegetable bugs were \
+    also recorded on common sowthistle in macadamia orchards (Jones).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>\
+    Bundaberg:<br>\
+    - Aphids<br>\
+    - Powdery mildew<br>\
+    - Fungus-eating ladybird<br>',
+    links: [
+        'DAF', 'https://www.daf.qld.gov.au/__data/assets/pdf_file/0004/75640/Management-of-common-sowthistle.pdf',
+        'CABI', 'https://www.cabi.org/isc/datasheet/50584#B376B01D-E44D-49E3-807F-78D5C444F91B',
+        'IEWF', 'https://www.iewf.org/weedid/Sonchus_oleraceus.htm',
+        'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0009/378189/une-weeds-common-sowthistle.pdf',
+        'Agrifutures', 'https://www.agrifutures.com.au/wp-content/uploads/2017/07/Appendix-16-Hunter-and-Ireland-2017-Nomination-sowthistle.pdf',
+        'NZAC FACT SHEET', 'https://nzacfactsheets.landcareresearch.co.nz/factsheet/InterestingInsects/Green-vegetable-bug---Nezara-viridula.html',
+        'Jones', 'https://academic.oup.com/ee/article/30/6/1028/504548?login=false',
+        'Swarbrick', 'https://caws.org.nz/PPQ567/PPQ%2006-2%20pp068-69%20Swarbrick.pdf',
+        'RBGSYD', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Sonchus~oleraceus'
+    ],
+    pest_images: [
+        "<img title='Aphids on common sowthistle' src='./images/sonchus-aphids.png'>", 
+        "<img title='Powdery mildew with fungus-eating ladybirds' src='./images/sonchus-fungus-ladybird.png'>", 
+        "<img title='Green vegetable bug' src='./images/GVB.png'>",
+    ]
+}
+
 const test = {
 	common_name: '',
     other_common_names: [],
@@ -793,7 +903,8 @@ const template = {
 
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
-    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo];
+    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo, 
+	crotalaria, sonchus];
 
 
 const comName = document.getElementById('common');
