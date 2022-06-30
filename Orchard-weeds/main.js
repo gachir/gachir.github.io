@@ -174,7 +174,6 @@ function Capsella() {
     <p>Links: <a href='${capsella.links[15]}' target='_blank'>${capsella.links[14]}</a></p>\
     <p>Links: <a href='${capsella.links[17]}' target='_blank'>${capsella.links[16]}</a></p>\
     <p>Links: <a href='${capsella.links[19]}' target='_blank'>${capsella.links[18]}</a></p>\
-    <p>Links: <a href='${capsella.links[21]}' target='_blank'>${capsella.links[20]}</a></p>\
     <p>Field Observations:</p>\
     <p>${capsella.observations}</p>`;
     
