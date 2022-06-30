@@ -333,7 +333,7 @@ const cobblers = {
         'Cabi', 'https://www.cabi.org/isc/datasheet/9148', 
         'Victoria Agriculture', 'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
     pest_images: [
-        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
+        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.png'>", 
         "<img title='Click to enlarge' src=''>", 
         "<img title='Click to enlarge' src=''>"]
 }
