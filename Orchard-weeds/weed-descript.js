@@ -202,16 +202,16 @@ const capsella = {
     uses: 'Medicinal.',
     cultural: "Shepherd's purse is a common weed found in many countries and can be found growing in crops, gardens, lawns, \
 	non-cultivated areas, roadsides and waste grounds. It tolerates a broad range of soils types. \
-    The seeds can remain viable in the ground for several, making this persistent plant difficult to eradicate.",
+    The seeds can remain viable in the ground for several years, making this persistent plant difficult to eradicate.",
     hosts: "Sheperd's purse is a host for insects, fungi and viruses, including many insect pests and diseases of crops. \
     It is reported to be a host for Alfalfa mosaic virus, Cucumber mosaic virus, Potato virus Y, \
     Soybean dwarf virus, and Tomato spotted wilt virus. Thrips have also been recorded on shepherd's purse. \
     In one long term study, it was found that <em>Capsella bursa-pastoris</em> is a significant \
-    host plant for aphids as well as their parasitoids and hyperparasitoids \
+    host plant for aphids, as well as their parasitoids and hyperparasitoids \
     <a href='https://www.mdpi.com/2075-4450/12/8/744#:~:text=A%20long%2Dterm%20survey%20revealed,were%20identified%20on%20this%20weed.' target='_blank'>link</a>. \
-    Reported to attract wildlife including bees, flies and butterflies. Based on pollen collection results from a study \
+    <br>Shepherd's purse is reported to attract wildlife including bees, flies and butterflies. Based on pollen collection results from a study \
     Argentina, bees collected pollen from Sheperd's purse (see link below - Honeybees generalize among pollen scents...). \
-    The nectar and pollen of the flowers attract mostly short-tongued bees and flies, including honeybees, Halictid bees, \
+    <br>Information presented on the Illinois wildflowers site, reports nectar and pollen of the flowers attract mostly short-tongued bees and flies, including honeybees, Halictid bees, \
     Andrenid bees, Syrphid flies, Tachinid flies, flesh flies (Sarcophagidae), and blow flies (Lucilia spp.), while \
     less often, small butterflies and skippers suck nectar from the flowers (see link below - Illinois Wildflowers). \
     Caterpillars of two butterflies, <em>Anthocharis midea</em> (Falcate Orangetip) and <em>Pontia protodice</em> (Checkered White), \
@@ -219,7 +219,7 @@ const capsella = {
     ",
     observations: 'Please complete the form to add your observations - go to the About page to access the form<br><br>\
     Bundaberg<br>\
-    - Usually many small spiders can be found on this plant.<br>\
+    - Many small spiders can be found on this plant.<br>\
     - Aphids\
     - Ladybirds<br>',
     links: [
