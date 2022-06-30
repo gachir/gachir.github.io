@@ -165,7 +165,17 @@ function Capsella() {
     `<h1>${capsella.common_name}</h1> <h3>(${capsella.botanical_name})</h3> <p> \
     ${capsella.cultural}</p><p>${capsella.hosts}.</p><p>Uses: ${capsella.uses}</p>\
     <p>Links: <a href='${capsella.links[1]}' target='_blank'>${capsella.links[0]}</a></p>\
-    <p>Links: <a href='${capsella.links[3]}' target='_blank'>${capsella.links[2]}</a></p><p>Field Observations:</p>\
+    <p>Links: <a href='${capsella.links[3]}' target='_blank'>${capsella.links[2]}</a></p>\
+    <p>Links: <a href='${capsella.links[5]}' target='_blank'>${capsella.links[4]}</a></p>\
+    <p>Links: <a href='${capsella.links[7]}' target='_blank'>${capsella.links[6]}</a></p>\
+    <p>Links: <a href='${capsella.links[9]}' target='_blank'>${capsella.links[8]}</a></p>\
+    <p>Links: <a href='${capsella.links[11]}' target='_blank'>${capsella.links[10]}</a></p>\
+    <p>Links: <a href='${capsella.links[13]}' target='_blank'>${capsella.links[12]}</a></p>\
+    <p>Links: <a href='${capsella.links[15]}' target='_blank'>${capsella.links[14]}</a></p>\
+    <p>Links: <a href='${capsella.links[17]}' target='_blank'>${capsella.links[16]}</a></p>\
+    <p>Links: <a href='${capsella.links[19]}' target='_blank'>${capsella.links[18]}</a></p>\
+    <p>Links: <a href='${capsella.links[21]}' target='_blank'>${capsella.links[20]}</a></p>\
+    <p>Field Observations:</p>\
     <p>${capsella.observations}</p>`;
     
     pic3.innerHTML = `${capsella.pest_images[0]}`;
