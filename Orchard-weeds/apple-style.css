@@ -1,3 +1,7 @@
+button {
+    background-color: white;
+}
+
 .image-container-dimensions {
     position:absolute;
     width: 500px;
