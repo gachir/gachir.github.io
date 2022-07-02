@@ -968,7 +968,7 @@ function Sonchus() {
     let img_text = 0;
     let images_hel = ['./images/heliotrope-flowers.png', './images/heliotrope-butterfly.png', './images/heliotrope.png'];
     let images_hover_hel = ['Heliotropium amplexicaule with flowers', 'Heliotropium amplexicaule with butterfly', 'Heliotropium amplexicaule'];
-    let images_text_hel = ['Heliotropium amplexicaule']
+    let images_text_hel = ['Heliotropium amplexicaule', 'Heliotropium amplexicaule', 'Heliotropium amplexicaule']
     let im_len = images_hel.length;
     let display_image = document.getElementById('image1-hel');
     let hide_button = document.getElementById('hide-hel');
