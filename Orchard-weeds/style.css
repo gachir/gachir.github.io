@@ -62,7 +62,7 @@ body {
     text-align: center;
     background-image: url('./images/vegBug-1.gif'), url('./images/leaf.png'), url('./images/vegBug-1.gif');
     background-repeat: no-repeat;
-    background-size: contain, contain, contain;
+    background-size: 40%, contain, contain;
     background-position: left, center, right;
     opacity: 1;
 }
