@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./apple-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <title>Orchard weeds</title>
+</head>
+<body>
+    <header class="nav">
+        <h1>Orchard Weeds</h1>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#search">Search</a></li>
+        </ul>
+    </header>
+    <div class="main-body">
+        <div class="empty"></div>
+
+        <div class="intro">
+            <h3>Welcome to Orchard Weeds</h3>
+            <h4>This site was created with the aim of sharing information about your observations of insects, diseases and other issues
+                observed on orchard weeds.
+            </h4> 
+            <h5>Background information on weeds is provided to give context, however before taking
+                any actions, professional advice is critical.
+            </h5>
+        </div>
+        
+
+        <div class="empty1"></div>
+
+    <div class="main">
+
+        <div class="list">
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Mallow</h3>
+                    <h3><em>Malva parviflora</em></h3>
+                    <p class="info" id="info-1">Info</p>
+                </section>
+                <section class="image"><img src="./images/Mallow.png" id="mallow" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-mallow"><em>Malva parviflora</em></p>
+                    <img id="image1-mallow" title="Malva parviflora" src="./images/Mallow.png">
+                    <button class="hide-mallow" id="hide-mallow" title="close window"><strong>X</strong></button>
+                    <button id="image2-mallow">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Blackberry nightshade</h3>
+                    <h3><em>Solanum nigrum</em></h3>
+                    <p class="info" id="info-2">Info</p>
+                </section>
+                <section class="image"><img src="./images/NIGHTSHADE.png" id="black" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-black"><em>Solan nigrum</em></p>
+                    <img id="image1-black" title="Solanum nigrum" src="./images/NIGHTSHADE.png">
+                    <button class="hide-black" id="hide-black" title="close window"><strong>X</strong></button>
+                    <button id="image2-black">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Thickhead</h3>
+                    <h3><em>Crassocephalum crepidioides</em></h3>
+                    <p class="info" id="info-3">Info</p>
+                </section>
+                <section class="image"><img src="./images/thickhead.png" id="thick" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-thick"><em>Crassocephalum crepidioides</em></p>
+                    <img id="image1-thick" title="Crassocephalum crepidioides" src="./images/thickhead.png">
+                    <button class="hide-thick" id="hide-thick" title="close window"><strong>X</strong></button>
+                    <button id="image2-thick">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Green amaranth</h3>
+                    <h3><em>Amaranthus viridis</em></h3>
+                    <p class="info" id="info-4">Info</p>
+                </section>
+                <section class="image"><img src="./images/amaranth.png" id="ama" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-ama"><em>Amaranthus viridis</em></p>
+                    <img id="image1-ama" title="Amaranthus viridis" src="./images/amaranth.png">
+                    <button class="hide-ama" id="hide-ama" title="close window"><strong>X</strong></button>
+                    <button id="image2-ama">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Gomphrena weed</h3>
+                    <h3><em>Gomphrena celosioides</em></h3>
+                    <p class="info" id="info-5">Info</p>
+                </section>
+                <section class="image"> <img src="./images/Gomphrena.png" id="gom" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-gom"><em>Gomphrena celosioides</em></p>
+                    <img id="image1-gom" title="Gomphrena celosioides" src="./images/Gomphrena.png">
+                    <button class="hide-gom" id="hide-gom" title="close window"><strong>X</strong></button>
+                    <button id="image2-gom">>></button>
+                </section>
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Purple top</h3>
+                    <h3><em>Verbena bonariensis</em></h3>
+                    <p class="info" id="info-6">Info</p>
+                </section>
+                <section class="image"> <img src="./images/purpletop-1.jpg" id="top" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-top"><em>Verbena bonariensis</em></p>
+                    <img id="image1-top" title="Purple top: Photo by Sheldon Navie, link: https://keyserver.lucidcentral.org/weeds/data/media/Html/verbena_bonariensis.htm" src="./images/purpletop-1.jpg">
+                    <button class="hide-top" id="hide-top" title="close window"><strong>X</strong></button>
+                    <button id="image2-top">>></button>
+                </section>    
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Tropical chickweed</h3>
+                        <h3><em>Drymaria cordata</em></h3>
+                        <p class="info" id="info-7">Info</p>
+                    </section>
+                    <section class="image"> <img src="./images/trop-chick.png" id="trop" title="Click to enlarge"></section>
+                    <section class="image-container-dimensions">
+                        <p id="image-text-trop"><em>Drymaria cordata</em></p>
+                        <img id="image1-trop" title="Drymaria cordata" src="./images/trop-chick-vert.png">
+                        <button class="hide-trop" id="hide-trop" title="close window"><strong>X</strong></button>
+                        <button id="image2-trop">>></button>
+                    </section> 
+                </section>
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Shepherd's purse</h3>
+                        <h3><em>Capsella bursa-pastoris</em></h3>
+                        <p class="info" id="info-8">Info</p>
+                </section>
+                <section class="image"> <img src="./images/Capsella.png" id="cap" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-cap"><em>Capsella bursa-pastoris</em></p>
+                    <img id="image1-cap" title="Capsella bursa-pastoris" src="./images/Capsella.png">
+                    <button class="hide-cap" id="hide-cap" title="close window"><strong>X</strong></button>
+                    <button id="image2-cap">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Blue Heliotrope</h3>
+                        <h3><em>Heliotropium amplexicaule</em></h3>
+                        <p class="info" id="info-9">Info</p>
+                </section>
+                <section class="image"> <img src="./images/heliotrope-1.jpg" id="hel" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-hel"><em>Heliotropium amplexicaule</em></p>
+                    <img id="image1-hel" title="Heliotropium amplexicaule" src="./images/heliotrope.png">
+                    <button class="hide-hel" id="hide-hel" title="close window"><strong>X</strong></button>
+                    <button id="image2-hel">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Khaki weed</h3>
+                        <h3><em>Alternanthera pungens</em></h3>
+                        <p class="info" id="info-10">Info</p>
+                </section>
+                <section class="image"> <img src="./images/khaki.png" id="kha" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-kha"><em>Alternanthera pungens</em></p>
+                    <img id="image1-kha" title="Alternanthera pungens" src="./images/khaki-1.png">
+                    <button class="hide-kha" id="hide-kha" title="close window"><strong>X</strong></button>
+                    <button id="image2-kha">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Fleabane</h3>
+                        <h3><em>Erigeron spp.</em></h3>
+                        <p class="info" id="info-11">Info</p>
+                </section>
+                <section class="image"> <img src="./images/fleabane.png" id="flea" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-flea"><em>Erigeron spp.</em></p>
+                    <img id="image1-flea" title="Erigeron spp." src="./images/fleabane.png">
+                    <button class="hide-flea" id="hide-flea" title="close window"><strong>X</strong></button>
+                    <button id="image2-flea">>></button>
+                </section> 
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Cobbler's pegs</h3>
+                        <h3><em>Bidens pilosa</em></h3>
+                        <p class="info" id="info-12">Info</p>
+                </section>
+                <section class="image"> <img src="./images/bidens.png" id="bid" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-bid"><em>Bidens pilosa</em></p>
+                    <img id="image1-bid" title="Bidens pilosa" src="./images/bidens.png">
+                    <button class="hide-bid" id="hide-bid" title="close window"><strong>X</strong></button>
+                    <button id="image2-bid">>></button>
+                </section>
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Potato weed</h3>
+                        <h3><em>Galinsoga parviflora</em></h3>
+                        <p class="info" id="info-13">Info</p>
+                </section>
+                <section class="image"> <img src="./images/potato-weed.png" id="pot" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-pot"><em>Galinsoga parviflora</em></p>
+                    <img id="image1-pot" title="Galinsoga parviflora" src="./images/potato-weed.png">
+                    <button class="hide-pot" id="hide-pot" title="close window"><strong>X</strong></button>
+                    <button id="image2-pot">>></button>
+                </section>
+            </section>
+            </section>
+            <section class="Gr-1">
+                <section class="name">
+                    <h3>Willowherb</h3>
+                        <h3><em>Epilobium ciliatum</em></h3>
+                        <p class="info" id="info-14">Info</p>
+                </section>
+                <section class="image"> <img src="./images/willowherb.jpg" id="willow" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-willow"><em>Epilobium ciliatum</em></p>
+                    <img id="image1-willow" title="Epilobium ciliatum" src="./images/willowherb.jpg">
+                    <button class="hide-willow" id="hide-willow" title="close window"><strong>X</strong></button>
+                    <button id="image2-willow">>></button>
+                </section>
+            </section>
+            
+        </section>
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Balloon Cotton</h3>
+                    <h3><em>Gomphocarpus spp.</em></h3>
+                    <p class="info" id="info-15">Info</p>
+            </section>
+            <section class="image"> <img src="./images/Gomphocarpus_plant.png" id="balloon" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-balloon"><em>Gomphocarpus spp.</em></p>
+                <img id="image1-balloon" title="Gomphocarpus spp." src="./images/Gomphocarpus_plant.png">
+                <button class="hide-balloon" id="hide-balloon" title="close window"><strong>X</strong></button>
+                <button id="image2-balloon">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Brazilian nightshade</h3>
+                    <h3><em>Solanum seaforthianum</em></h3>
+                    <p class="info" id="info-16">Info</p>
+            </section>
+            <section class="image"> <img src="./images/Brazilian.jpg" id="brazil" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-brazil"><em>Solanum seaforthianum</em></p>
+                <img id="image1-brazil" title="Solanum seaforthianum" src="./images/Brazilian.jpg">
+                <button class="hide-brazil" id="hide-brazil" title="close window"><strong>X</strong></button>
+                <button id="image2-brazil">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>White Eye</h3>
+                    <h3><em>Mitracarpus hirtus</em></h3>
+                    <p class="info" id="info-17">Info</p>
+            </section>
+            <section class="image"> <img src="./images/mitracarpus-2.png" id="mitra" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-mitra"><em>Mitracarpus hirtus.</em></p>
+                <img id="image1-mitra" title="Mitracarpus hirtus" src="./images/mitracarpus-1.png">
+                <button class="hide-mitra" id="hide-mitra" title="close window"><strong>X</strong></button>
+                <button id="image2-mitra">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>White Eye</h3>
+                    <h3><em>Richardia brasiliensis</em></h3>
+                    <p class="info" id="info-18">Info</p>
+            </section>
+            <section class="image"> <img src="./images/richardia.png" id="rich" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-rich"><em>Richardia brasiliensis</em></p>
+                <img id="image1-rich" title="Richardia brasiliensis" src="./images/richardia.png">
+                <button class="hide-rich" id="hide-rich" title="close window"><strong>X</strong></button>
+                <button id="image2-rich">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Sida</h3>
+                    <h3><em>Sida acute</em></h3>
+                    <p class="info" id="info-19">Info</p>
+            </section>
+            <section class="image"> <img src="./images/sida-acuta-1.png" id="si" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-si"><em>Sida acute</em></p>
+                <img id="image1-si" title="Sida acute" src="./images/sida-acuta-1.png">
+                <button class="hide-si" id="hide-si" title="close window"><strong>X</strong></button>
+                <button id="image2-si">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Paddy's lucerne</h3>
+                    <h3><em>Sida rhombifolia</em></h3>
+                    <p class="info" id="info-20">Info</p>
+            </section>
+            <section class="image"> <img src="./images/sida-rhom-main.jpg" id="rhom" title="Click to enlarge (Photo by: Rebekah D. Wallace, University of Georgia, Bugwood.org)"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-rhom"><em>Sida rhombifolia</em></p>
+                <img id="image1-rhom" title="Sida rhombifolia" src="./images/sida-rhom.png">
+                <button class="hide-rhom" id="hide-rhom" title="close window"><strong>X</strong></button>
+                <button id="image2-rhom">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Flannelweed</h3>
+                    <h3><em>Sida cordilfolia</em></h3>
+                    <p class="info" id="info-21">Info</p>
+            </section>
+            <section class="image"> <img src="./images/s-cordifolia-1.png" id="cord" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-cord"><em>Sida cordilfolia</em></p>
+                <img id="image1-cord" title="Sida cordilfolia" src="./images/s-cordifolia-1.png">
+                <button class="hide-cord" id="hide-cord" title="close window"><strong>X</strong></button>
+                <button id="image2-cord">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Prickly Malvastrum</h3>
+                    <h3><em>Malvastrum spp.</em></h3>
+                    <p class="info" id="info-22">Info</p>
+            </section>
+            <section class="image"> <img src="./images/malvastrum.png" id="mal" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-mal"><em>Malvastrum spp.</em></p>
+                <img id="image1-mal" title="Malvastrum spp." src="./images/malvastrum.png">
+                <button class="hide-mal" id="hide-mal" title="close window"><strong>X</strong></button>
+                <button id="image2-mal">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Creeping indigo</h3>
+                    <h3><em>Indigofera spicata</em></h3>
+                    <p class="info" id="info-23">Info</p>
+            </section>
+            <section class="image"> <img src="./images/creeping-indigo.png" id="indi" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-indi"><em>Indigofera spicata</em></p>
+                <img id="image1-indi" title="Indigofera spicata" src="./images/creeping-indigo-root.png">
+                <button class="hide-indi" id="hide-indi" title="close window"><strong>X</strong></button>
+                <button id="image2-indi">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Rattlepods</h3>
+                    <h3><em>Crotalaria spp.</em></h3>
+                    <p class="info" id="info-24">Info</p>
+            </section>
+            <section class="image"> <img src="./images/crotalaria pallida.png" id="crot" title="Click to enlarge"></section>
+            <section class="image-container-dimensions">
+                <p id="image-text-crot"><em>Crotalaria spp.</em></p>
+                <img id="image1-crot" title="Crotalaria lanceolata" src="./images/crotalaria_lanceolata.png">
+                <button class="hide-crot" id="hide-crot" title="close window"><strong>X</strong></button>
+                <button id="image2-crot">>></button>
+            </section>
+        </section>
+
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Common sowthistle</h3>
+                    <h3><em>Sonchus oleraceus</em></h3>
+                    <p class="info" id="info-25">Info</p>
+            </section>
+            <section class="image"> <img src="./images/sonchus-rosette.png" id="son" title="Click to enlarge"></section>
+                <section class="image-container-dimensions">
+                    <p id="image-text-sonchus"><em>Sonchus oleraceus</em></p>
+                    <img id="image1-sonchus" title="Sonchus oleraceus" src="./images/sonchus-rosette.png">
+                    <button class="hide-son" id="hide-son" title="close window"><strong>X</strong></button>
+                    <button id="image2-sonchus">>></button>
+                </section>       
+            
+        </section>
+
+        <!--  TEST CODE FOR USING IMAGES INSTEAD OF DIALOG
+        <section class="Gr-1">
+            <section class="name">
+                <h3>Creeping indigo</h3>
+                    <h3><em>Indigofera spicata</em></h3>
+                    <p class="info" id="info-24">Info</p>
+            </section>
+            <section class="image"> <img src="./images/creeping-indigo.png" id="col" title="Click to enlarge"></section>
+                    <section>
+                       
+                        <img id="image1" title="Creeping indigo" src="./images/creeping-indigo.png">
+                        <button id="hide-col" title="close window"><strong>X</strong></button>
+                        <button id="image2">>></button>
+                    </section>
+        </section>
+        -->
+
+        </div>
+        
+
+        <div class="display">
+            <section class="dis-cont" id="dis-cont">
+                <section id="pest-description"></section>
+                <section class="pest-image">
+                    <section class="pest-im" id="image-1" title="Click to enlarge"></section>
+                    <dialog class=popup1 id="pest1"><p id="insect1"></p><button id="hide-pest1" 
+                        title="close window"><strong>X</strong></button></dialog>
+                    <section class="pest-im" id="image-2" title="Click to enlarge"></section>
+                    <dialog class=popup1 id="pest2"><p id="insect2"></p><button id="hide-pest2" 
+                        title="close window"><strong>X</strong></button></dialog>
+                    <section class="pest-im" id="image-3" title="Click to enlarge"></section>
+                    <dialog class=popup1 id="pest3"><p id="insect3"></p><button id="hide-pest3" 
+                        title="close window"><strong>X</strong></button></dialog>
+                </section>
+            </section>
+        </div>
+
+        <div class="fixed"></div>
+
+    </div>
+    </div>
+    <footer id="search">
+        <form id="formData">
+            <input type="radio" class='same' id="common" name="yes" value="common" required>
+            <label for="common" class="cont">Common name</label>
+            <input type="radio" class='same' id="sci" name="yes" value="sci" required>
+            <label for="sci" class="cont">Scientific name</label>
+            <label for="searchable"></label>
+            <input type="text" list="searchItems" id="searchable" name="searchable" 
+            placeholder="Search here" maxlength="25" minlength="5" required>
+            
+            <input type="submit" value="Submit" id="submit">
+            <datalist id="searchItems"></datalist>
+          </form> 
+    </footer>
+    <script src="./apple-main.js"></script>
+    <script src="./weed-descript.js"></script>
+</body>
+</html>

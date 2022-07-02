@@ -1,0 +1,263 @@
+.image-container-dimensions {
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    margin-left: 70%;
+    visibility: hidden;
+}
+
+.hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+    position:absolute;
+    margin-left: -91.5%;
+    z-index: 100;
+    font-size: 1rem;
+    visibility: hidden;
+    /*bottom: -65px;*/
+    margin-top: 55%;
+    border: outset;
+    padding: 5px 10px;
+}
+.hide-mallow:hover, .hide-son:hover, .hide-black:hover, .hide-thick:hover, .hide-ama:hover, .hide-top:hover, 
+.hide-gom:hover, .hide-trop:hover, .hide-cap:hover, .hide-hel:hover, .hide-kha:hover, 
+.hide-flea:hover, .hide-bid:hover, .hide-pot:hover, .hide-willow:hover, .hide-balloon:hover, 
+.hide-brazil:hover, .hide-mitra:hover, .hide-rich:hover, .hide-si:hover, .hide-rhom:hover, .hide-mal:hover, 
+.hide-indi:hover, .hide-crot:hover, .hide-cord:hover {
+    background-color: midnightblue;
+    color: white;
+}
+.hide-mallow:active, .hide-son:active, .hide-black:active, .hide-thick:active, .hide-ama:active, .hide-top:active, 
+.hide-gom:active, .hide-trop:active, .hide-cape:active,  .hide-hel:active, .hide-kha:active, .hide-flea:active, 
+.hide-bid:active, .hide-pot:active, .hide-willow:active, .hide-balloon:active, 
+.hide-brazil:active, .hide-mitra:active, .hide-rich:active, .hide-si:active, .hide-rhom:active, .hide-mal:active, 
+.hide-indi:active, .hide-crot:active, .hide-cord:active {
+    border: 2px white inset;
+}
+
+#image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+    position:absolute;
+    margin-left: 20%;
+    z-index: 110;
+    font-size: 0.5rem;
+    visibility: hidden;
+    /*bottom: -70px;*/
+    margin-top: 57.5%;
+    border: black;
+    padding: 5px 10px;
+    background-color: white;
+}
+#image1-sonchus, #image1-mallow, #image1-black, #image1-thick, #image1-ama, #image1-top, 
+#image1-gom, #image1-trop, #image1-cap, #image1-hel, #image1-kha, 
+#image1-flea, #image1-bid, #image1-pot, #image1-willow, #image1-balloon, 
+#image1-brazil, #image1-mitra, #image1-rich, #image1-si, #image1-rhom, #image1-mal, 
+#image1-indi, #image1-crot, #image1-cord {
+    visibility:hidden;
+    z-index: 50;
+    width: 90%;
+    height: 90%;
+    margin-left: -30%;
+    margin-top: -150px;
+    /*bottom: -70px;*/
+    position:relative;
+    border: 8px blue solid;
+}
+#image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+    position:absolute;
+    margin-left: -80%;
+    z-index: 100;
+    font-size: 1rem;
+    visibility: hidden;
+    /*bottom: -65px;*/
+    margin-top: 55%;
+    padding: 5px 10px;
+    border: outset;
+}
+
+#image2-mallow:hover, #image2-sonchus:hover, #image2-black:hover, #image2-thick:hover, #image2-ama:hover, #image2-top:hover,
+#image2-gom:hover, #image2-trop:hover, #image2-cap:hover, #image2-hel:hover, #image2-kha:hover,
+#image2-flea:hover, #image2-bid:hover, #image2-pot:hover, #image2-willow:hover, #image2-balloon:hover,
+#image2-brazil:hover, #image2-mitra:hover, #image2-rich:hover, #image2-si:hover, #image2-rhom:hover, #image2-mal:hover,
+#image2-indi:hover, #image2-crot:hover, #image2-cord:hover {
+    background-color: midnightblue;
+    color: white;
+}
+#image2-mallow:active, #image2-sonchus:active, #image2-black:active, #image2-thick:active, #image2-ama:active, #image2-top:active, 
+#image2-gom:active, #image2-trop:active, #image2-cap:active, #image2-hel:active, #image2-kha:active, 
+#image2-flea:active, #image2-bid:active, #image2-pot:active, #image2-willow:active, #image2-balloon:active, 
+#image2-brazil:active, #image2-mitra:active, #image2-rich:active, #image2-si:active, #image2-rhom:active, #image2-mal:active, 
+#image2-indi:active, #image2-crot:active, #image2-cord:active {
+    border: 2px white inset;
+}
+
+@media only screen and (max-width: 1000px) {
+    .image-container-dimensions {
+        width: 450px;
+        height: 450px;
+        margin-left: 60%;
+    }
+    .hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+    margin-top: 51.5%;
+    }
+    #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+    margin-top: 51.5%;
+    }
+    #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+    margin-top: 54%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .image-container-dimensions {
+        width: 450px;
+        height: 450px;
+        margin-left: 60%;
+    }
+    #image1-sonchus, #image1-mallow, #image1-black, #image1-thick, #image1-ama, #image1-top, 
+#image1-gom, #image1-trop, #image1-cap, #image1-hel, #image1-kha, 
+#image1-flea, #image1-bid, #image1-pot, #image1-willow, #image1-balloon, 
+#image1-brazil, #image1-mitra, #image1-rich, #image1-si, #image1-rhom, #image1-mal, 
+#image1-indi, #image1-crot, #image1-cord {
+    visibility:hidden;
+    z-index: 50;
+    width: 90%;
+    height: 95%;
+    margin-left: -30%;
+    margin-top: -150px;
+    /*bottom: -70px;*/
+    position:relative;
+    border: 8px blue solid;
+    }
+    .hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+    font-size: 0.5rem;
+    margin-top: 53.5%;
+    }
+    #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+    font-size: 0.5rem;
+    margin-top: 53.5%;
+    }
+    #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+    margin-top: 55%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .image-container-dimensions {
+        width: 400px;
+        height: 400px;
+        margin-left: 60%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .image-container-dimensions {
+        width: 350px;
+        height: 350px;
+        margin-right: 15%;
+    }
+    .hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+        font-size: 0.4rem;
+        margin-top: 49%;
+    }
+    #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+        font-size: 0.4rem;
+        margin-top: 49%;
+    }
+    #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+        font-size: 0.4rem;
+        margin-top: 50%;
+}
+
+@media only screen and (max-width: 470px) {
+    .image-container-dimensions {
+        width: 250px;
+        height: 250px;
+        margin-left: 60%;
+    }
+    .hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+        font-size: 0.3rem;
+        margin-top: 32%;
+    }
+    #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+        font-size: 0.3rem;
+        margin-top: 32%;
+    }
+    #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+        font-size: 0.3rem;
+        margin-top: 32%;
+}
+
+@media only screen and (max-width: 335px) {
+    .image-container-dimensions {
+        width: 210px;
+        height: 220px;
+    }
+    .hide-mallow, .hide-son, .hide-black, .hide-thick, .hide-ama, .hide-top, .hide-gom, .hide-trop, 
+.hide-cap, .hide-hel, .hide-kha, .hide-flea, .hide-bid, .hide-pot, .hide-willow, .hide-balloon, .hide-brazil, .hide-mitra, 
+.hide-rich, .hide-si, .hide-rhom, .hide-mal, .hide-indi, .hide-crot, .hide-cord {
+        font-size: 0.3rem;
+        margin-top: 24%;
+    }
+    #image2-mallow, #image2-sonchus, #image2-black, #image2-thick, #image2-ama, #image2-top, 
+#image2-gom, #image2-trop, #image2-cap, #image2-hel, #image2-kha, 
+#image2-flea, #image2-bid, #image2-pot, #image2-willow, #image2-balloon, 
+#image2-brazil, #image2-mitra, #image2-rich, #image2-si, #image2-rhom, #image2-mal, 
+#image2-indi, #image2-crot, #image2-cord {
+        font-size: 0.3rem;
+        margin-top: 24%;
+    }
+    #image-text-mallow, #image-text-sonchus, #image-text-black, #image-text-thick, #image-text-ama, #image-text-top, 
+#image-text-gom, #image-text-trop, #image-text-cap, #image-text-hel, #image-text-kha, 
+#image-text-flea, #image-text-bid, #image-text-pot, #image-text-willow, #image-text-balloon, 
+#image-text-brazil, #image-text-mitra, #image-text-rich, #image-text-si, #image-text-rhom, #image-text-mal, 
+#image-text-indi, #image-text-crot, #image-text-cord {
+        font-size: 0.3rem;
+        margin-top: 24%;
+}
