@@ -28,6 +28,7 @@ const info22 = document.getElementById('info-22');
 const info23 = document.getElementById('info-23');
 const info24 = document.getElementById('info-24');
 const info25 = document.getElementById('info-25');
+const info26 = document.getElementById('info-26');
 
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -577,6 +578,28 @@ function Sonchus() {
     document.getElementById('insect1').innerHTML = `${sonchus.pest_images[2]}`;
 }
 
+function Coronopus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${coronopus.common_name}</h1> <h3>(${coronopus.botanical_name})</h3> <p> \
+    ${coronopus.cultural}</p><p>${coronopus.hosts}.</p><p>Uses: ${coronopus.uses}</p>\
+    <p>Links: <a href='${coronopus.links[1]}' target='_blank'>${coronopus.links[0]}</a></p>\
+    <p>Links: <a href='${coronopus.links[3]}' target='_blank'>${coronopus.links[2]}</a></p>\
+    <p>Links: <a href='${coronopus.links[5]}' target='_blank'>${coronopus.links[4]}</a></p>\
+    <p>Links: <a href='${coronopus.links[7]}' target='_blank'>${coronopus.links[6]}</a></p>\
+    
+    <p>Field Observations:</p>\
+    <p>${coronopus.observations}</p>`;
+    
+    pic3.innerHTML = `${coronopus.pest_images[0]}`;
+    pic2.innerHTML = `${coronopus.pest_images[1]}`;
+    pic1.innerHTML = `${coronopus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${coronopus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${coronopus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
+}
+
+
 
 
 /*      POPUP BOXES FOR IMAGES      */
@@ -869,6 +892,18 @@ function Sonchus() {
     };    
 })();
 
+/* CORONOPUS     */
+(function() {    
+    var dialog = document.getElementById('COROno'); 
+    document.getElementById('coro').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-coro').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
 
 /* pest 1    */
 (function() {    
@@ -1008,5 +1043,9 @@ info24.addEventListener('click', function(e) {
 info25.addEventListener('click', function(e) {
     e.preventDefault();
     Sonchus();
+})
+info26.addEventListener('click', function(e) {
+    e.preventDefault();
+    Coronopus();
 })
 
