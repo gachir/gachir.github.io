@@ -30,6 +30,8 @@ const info24 = document.getElementById('info-24');
 const info25 = document.getElementById('info-25');
 const info26 = document.getElementById('info-26');
 
+
+
 function mallow() {
     document.querySelector('.display').style.visibility = 'visible';
     description.innerHTML =
@@ -600,8 +602,6 @@ function Coronopus() {
 }
 
 
-
-
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
 (function() {    
@@ -894,7 +894,7 @@ function Coronopus() {
 
 /* CORONOPUS     */
 (function() {    
-    var dialog = document.getElementById('COROno'); 
+    var dialog = document.getElementById('coroNO'); 
     document.getElementById('coro').onclick = function() {    
         dialog.showModal();    
     };
@@ -903,6 +903,45 @@ function Coronopus() {
         dialog.close();    
     };    
 })();
+
+
+/* TEST CODE TO MOVE THROUGH PHOTOS */
+/* CROTALARIA      */
+/*et img_now = 0;
+let images = ['./images/spider.png', './images/thrips.png'];
+let im_len = images.length;
+
+
+    //event.target here is refer to clicked <img>
+    //that triger the event
+
+(function() {    
+    //var dialog = document.getElementById('indiGO'); 
+    document.getElementById('col').onclick = function() { 
+        let ff = document.getElementById('image1');
+        let dd = document.getElementById('hide-col');
+        let ss = document.getElementById('image2');
+        dd.style.visibility = 'visible';     
+        ff.style.visibility = 'visible';
+        ss.style.visibility = 'visible';
+    };
+
+    let elm = document.getElementById('image2');
+    elm.addEventListener('click', function() {
+        let ff = document.getElementById('image1');
+        if (img_now > im_len-1) {
+            img_now = 0;
+        }
+        ff.src = images[img_now++]
+    });
+    
+    document.getElementById('hide-col').onclick = function() {  
+        let ff = document.getElementById('image1');
+        let dd = document.getElementById('hide-col');  
+        ff.style.visibility = 'hidden';  
+        dd.style.visibility = 'hidden';
+    };    
+})();   */   
 
 
 /* pest 1    */
@@ -1048,4 +1087,3 @@ info26.addEventListener('click', function(e) {
     e.preventDefault();
     Coronopus();
 })
-
