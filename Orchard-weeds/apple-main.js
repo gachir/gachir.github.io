@@ -63,9 +63,9 @@ function nightshade() {
     pic3.innerHTML = `${shade.pest_images[0]}`;
     pic2.innerHTML = `${shade.pest_images[1]}`;
     pic1.innerHTML = `${shade.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${shade.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${shade.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${shade.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${shade.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${shade.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${shade.pest_images[2]}`;
 }
 
 function thickhead() {
@@ -83,9 +83,9 @@ function thickhead() {
     pic3.innerHTML = `${crasso.pest_images[0]}`;
     pic2.innerHTML = `${crasso.pest_images[1]}`;
     pic1.innerHTML = `${crasso.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${crasso.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${crasso.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${crasso.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${crasso.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${crasso.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${crasso.pest_images[2]}`;
 }
 
 function amaranthus() {
@@ -100,9 +100,9 @@ function amaranthus() {
     pic3.innerHTML = `${amaranth.pest_images[0]}`;
     pic2.innerHTML = `${amaranth.pest_images[1]}`;
     pic1.innerHTML = `${amaranth.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${amaranth.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${amaranth.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${amaranth.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${amaranth.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${amaranth.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${amaranth.pest_images[2]}`;
 }
 
 function gomphrena() {
@@ -120,9 +120,9 @@ function gomphrena() {
     pic3.innerHTML = `${Gomphrena.pest_images[0]}`;
     pic2.innerHTML = `${Gomphrena.pest_images[1]}`;
     pic1.innerHTML = `${Gomphrena.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${Gomphrena.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${Gomphrena.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${Gomphrena.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${Gomphrena.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${Gomphrena.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${Gomphrena.pest_images[2]}`;
 }
 
 function verbenaB() {
@@ -138,9 +138,9 @@ function verbenaB() {
     pic3.innerHTML = `${purpletop.pest_images[0]}`;
     pic2.innerHTML = `${purpletop.pest_images[1]}`;
     pic1.innerHTML = `${purpletop.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${purpletop.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${purpletop.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${purpletop.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${purpletop.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${purpletop.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${purpletop.pest_images[2]}`;
 }
 
 function tropicalchickweed() {
@@ -157,9 +157,9 @@ function tropicalchickweed() {
     pic3.innerHTML = `${tropChick.pest_images[0]}`;
     pic2.innerHTML = `${tropChick.pest_images[1]}`;
     pic1.innerHTML = `${tropChick.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${tropChick.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${tropChick.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${tropChick.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${tropChick.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${tropChick.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${tropChick.pest_images[2]}`;
 }
 
 function Capsella() {
@@ -183,9 +183,9 @@ function Capsella() {
     pic3.innerHTML = `${capsella.pest_images[0]}`;
     pic2.innerHTML = `${capsella.pest_images[1]}`;
     pic1.innerHTML = `${capsella.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${capsella.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${capsella.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${capsella.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${capsella.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${capsella.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${capsella.pest_images[2]}`;
 }
 
 function Heliotrope() {
@@ -202,9 +202,9 @@ function Heliotrope() {
     pic3.innerHTML = `${heliotropium.pest_images[0]}`;
     pic2.innerHTML = `${heliotropium.pest_images[1]}`;
     pic1.innerHTML = `${heliotropium.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${heliotropium.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${heliotropium.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${heliotropium.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${heliotropium.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${heliotropium.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${heliotropium.pest_images[2]}`;
 }
 
 function Khaki() {
@@ -220,9 +220,9 @@ function Khaki() {
     pic3.innerHTML = `${khaki.pest_images[0]}`;
     pic2.innerHTML = `${khaki.pest_images[1]}`;
     pic1.innerHTML = `${khaki.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${khaki.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${khaki.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${khaki.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${khaki.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${khaki.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${khaki.pest_images[2]}`;
 }
 
 function Fleabane() {
@@ -238,9 +238,9 @@ function Fleabane() {
     pic3.innerHTML = `${fleabane.pest_images[0]}`;
     pic2.innerHTML = `${fleabane.pest_images[1]}`;
     pic1.innerHTML = `${fleabane.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${fleabane.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${fleabane.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${fleabane.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${fleabane.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${fleabane.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${fleabane.pest_images[2]}`;
 }
 
 function Bidens() {
@@ -258,9 +258,9 @@ function Bidens() {
     pic3.innerHTML = `${cobblers.pest_images[0]}`;
     pic2.innerHTML = `${cobblers.pest_images[1]}`;
     pic1.innerHTML = `${cobblers.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${cobblers.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${cobblers.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${cobblers.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${cobblers.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${cobblers.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${cobblers.pest_images[2]}`;
 }
 
 function Potato() {
@@ -278,9 +278,9 @@ function Potato() {
     pic3.innerHTML = `${potato_weed.pest_images[0]}`;
     pic2.innerHTML = `${potato_weed.pest_images[1]}`;
     pic1.innerHTML = `${potato_weed.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${potato_weed.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${potato_weed.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${potato_weed.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${potato_weed.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${potato_weed.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${potato_weed.pest_images[2]}`;
 }
 
 function willowherb() {
@@ -298,9 +298,9 @@ function willowherb() {
     pic3.innerHTML = `${willowHerb.pest_images[0]}`;
     pic2.innerHTML = `${willowHerb.pest_images[1]}`;
     pic1.innerHTML = `${willowHerb.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${willowHerb.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${willowHerb.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${willowHerb.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${willowHerb.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${willowHerb.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${willowHerb.pest_images[2]}`;
 }
 
 function cotton() {
@@ -325,9 +325,9 @@ function cotton() {
     pic3.innerHTML = `${BalloonCotton.pest_images[0]}`;
     pic2.innerHTML = `${BalloonCotton.pest_images[1]}`;
     pic1.innerHTML = `${BalloonCotton.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${BalloonCotton.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${BalloonCotton.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${BalloonCotton.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${BalloonCotton.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${BalloonCotton.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${BalloonCotton.pest_images[2]}`;
 }
 
 function brazilian() {
@@ -347,9 +347,9 @@ function brazilian() {
     pic3.innerHTML = `${Brazilian_nightshade.pest_images[0]}`;
     pic2.innerHTML = `${Brazilian_nightshade.pest_images[1]}`;
     pic1.innerHTML = `${Brazilian_nightshade.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${Brazilian_nightshade.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${Brazilian_nightshade.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${Brazilian_nightshade.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${Brazilian_nightshade.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${Brazilian_nightshade.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${Brazilian_nightshade.pest_images[2]}`;
 }
 
 function Mitracarpus() {
@@ -369,9 +369,9 @@ function Mitracarpus() {
     pic3.innerHTML = `${mitracarpus.pest_images[0]}`;
     pic2.innerHTML = `${mitracarpus.pest_images[1]}`;
     pic1.innerHTML = `${mitracarpus.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${mitracarpus.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${mitracarpus.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${mitracarpus.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${mitracarpus.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${mitracarpus.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${mitracarpus.pest_images[2]}`;
 }
 
 function Richardia() {
@@ -391,9 +391,9 @@ function Richardia() {
     pic3.innerHTML = `${richardia.pest_images[0]}`;
     pic2.innerHTML = `${richardia.pest_images[1]}`;
     pic1.innerHTML = `${richardia.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${richardia.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${richardia.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${richardia.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${richardia.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${richardia.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${richardia.pest_images[2]}`;
 }
 
 function Sida() {
@@ -414,9 +414,9 @@ function Sida() {
     pic3.innerHTML = `${sida_acuta.pest_images[0]}`;
     pic2.innerHTML = `${sida_acuta.pest_images[1]}`;
     pic1.innerHTML = `${sida_acuta.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${sida_acuta.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${sida_acuta.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${sida_acuta.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${sida_acuta.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${sida_acuta.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${sida_acuta.pest_images[2]}`;
 }
 
 function Sida_rhom() {
@@ -439,9 +439,9 @@ function Sida_rhom() {
     pic3.innerHTML = `${sida_rhombifolia.pest_images[0]}`;
     pic2.innerHTML = `${sida_rhombifolia.pest_images[1]}`;
     pic1.innerHTML = `${sida_rhombifolia.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${sida_rhombifolia.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${sida_rhombifolia.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${sida_rhombifolia.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${sida_rhombifolia.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${sida_rhombifolia.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${sida_rhombifolia.pest_images[2]}`;
 }
 
 function Sida_cord() {
@@ -467,9 +467,9 @@ function Sida_cord() {
     pic3.innerHTML = `${sida_cordifolia.pest_images[0]}`;
     pic2.innerHTML = `${sida_cordifolia.pest_images[1]}`;
     pic1.innerHTML = `${sida_cordifolia.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${sida_cordifolia.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${sida_cordifolia.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${sida_cordifolia.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${sida_cordifolia.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${sida_cordifolia.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${sida_cordifolia.pest_images[2]}`;
 }
 
 function Malvastrum() {
@@ -493,9 +493,9 @@ function Malvastrum() {
     pic3.innerHTML = `${malvastrum.pest_images[0]}`;
     pic2.innerHTML = `${malvastrum.pest_images[1]}`;
     pic1.innerHTML = `${malvastrum.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${malvastrum.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${malvastrum.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${malvastrum.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${malvastrum.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${malvastrum.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${malvastrum.pest_images[2]}`;
 }
 
 function Indigo() {
@@ -519,9 +519,9 @@ function Indigo() {
     pic3.innerHTML = `${indigo.pest_images[0]}`;
     pic2.innerHTML = `${indigo.pest_images[1]}`;
     pic1.innerHTML = `${indigo.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${indigo.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${indigo.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${indigo.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${indigo.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${indigo.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${indigo.pest_images[2]}`;
 }
 
 function Crotalaria() {
@@ -549,9 +549,9 @@ function Crotalaria() {
     pic3.innerHTML = `${crotalaria.pest_images[0]}`;
     pic2.innerHTML = `${crotalaria.pest_images[1]}`;
     pic1.innerHTML = `${crotalaria.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${crotalaria.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${crotalaria.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${crotalaria.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${crotalaria.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${crotalaria.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${crotalaria.pest_images[2]}`;
 }
 
 function Sonchus() {
@@ -575,9 +575,9 @@ function Sonchus() {
     pic3.innerHTML = `${sonchus.pest_images[0]}`;
     pic2.innerHTML = `${sonchus.pest_images[1]}`;
     pic1.innerHTML = `${sonchus.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${sonchus.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${sonchus.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${sonchus.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${sonchus.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${sonchus.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${sonchus.pest_images[2]}`;
 }
 
 function Coronopus() {
@@ -596,9 +596,9 @@ function Coronopus() {
     pic3.innerHTML = `${coronopus.pest_images[0]}`;
     pic2.innerHTML = `${coronopus.pest_images[1]}`;
     pic1.innerHTML = `${coronopus.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${coronopus.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${coronopus.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${coronopus.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${coronopus.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
 }
 
 
