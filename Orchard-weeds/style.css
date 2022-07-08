@@ -56,6 +56,7 @@ body {
     font-weight: bolder;
     border-radius: 50px;
     background-color: rgb(153, 219, 255);
+    
     width:80%;
     padding: 10px;
     text-align: center;
@@ -157,7 +158,37 @@ body {
 .popup {
     border-radius: 20px;
     background-color: whitesmoke;
+    visibility: visible;
+    position: fixed;
+    z-index: 50;
 }
+
+/* TEST CODE FOR IMAGE OPTION
+#hide-col {
+    position:absolute;
+    margin-left: 10%;
+    z-index: 100;
+    font-size: 5rem;
+    visibility: hidden;
+    bottom: -70px;
+}
+#image1 {
+    visibility:hidden;
+    z-index: 50;
+    width: 100%;
+    margin-left: 10%;
+    bottom: -70px;
+    position:absolute;
+    border: 5px blue dotted;
+}
+#image2 {
+    position:absolute;
+    margin-left: 30%;
+    z-index: 100;
+    font-size: 2rem;
+    visibility: hidden;
+    bottom: -70px;
+}*/
 
 .popup img {
     width: 350px;
@@ -209,6 +240,7 @@ body {
     background-color: gainsboro;
     border: inset;
 }
+
 
 .display {
     width: 45%;
@@ -267,6 +299,10 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+
+
 
 .info {
     height: 30px;
@@ -355,6 +391,9 @@ input[type="radio"] {
         height: 200px; 
         width: 100%; 
     }
+    .intro {
+        /*height: 150px;*/
+    }
 }
 
 /* adjusted screen size for gif file */
@@ -384,6 +423,11 @@ input[type="radio"] {
         height: 20px;
         margin-top: 10%;
     }
+
+    .intro {
+        /*height: 170px;*/
+    }
+    
     .pest-im {
         /* border: 1px black solid;*/
          width: 30%;
@@ -407,6 +451,16 @@ input[type="radio"] {
         width: 110%;
         margin-left: -4%;
     }
+
+    .excerp {
+        font-size: 0.8rem;
+    }
+    
+    #excerp-link {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    
     .name {
         width: 50%
     }
@@ -422,6 +476,7 @@ input[type="radio"] {
     }
 
     .intro {
+        /*height: 170px;*/
         font-size: 0.95rem;
     }
     .display {
@@ -449,14 +504,6 @@ input[type="radio"] {
         height: 100px;
         width: 110%;
     }
-    .excerp {
-        font-size: 0.8rem;
-    }
-    
-    #excerp-link {
-        font-size: 0.5rem;
-        text-align: center;
-    }
     .name em {
         font-size: 0.5rem;
     }
@@ -469,6 +516,7 @@ input[type="radio"] {
     }
 
     .intro {
+        /*height: 170px;*/
         font-size: 0.8rem;
     }
 
@@ -500,6 +548,7 @@ input[type="radio"] {
     .Gr-1 {
         height: 110px;
     }
+}
 
 @media only screen and (max-width: 370px) {
     .main {
@@ -528,6 +577,7 @@ input[type="radio"] {
     }
 
     .intro {
+       /* height: 170px;*/
         font-size: 0.8rem;
     }
 
