@@ -76,6 +76,20 @@ body {
     border: rgb(230, 23, 23) 6px dotted;
 }
 
+.excerp {
+    width: 60%;
+    background-color: rgb(255, 255, 255, 0.7);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#excerp {
+    text-align: center;
+}
+#excerp-link {
+    font-size: 0.7rem;
+    text-align: center;
+}
 
 .main-body {
     background-image: url('./images/header-img.png');
