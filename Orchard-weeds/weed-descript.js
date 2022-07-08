@@ -148,7 +148,7 @@ const shade = {
      A study showed that blackberry nightshade was highly allelopathic with a number of plants.',
     hosts: "Blackberry nightshade hosts a range of insect pests, diseases, nematodes, \
     bacteria, fungi and viruses detrimental multiple crops. It is a known host of Green vegetable bugs. \
-	In a study undertaken in Cameroon, flower insect visitations were monitored for Blackberry nightshade (Mamoudou). \
+    In a study undertaken in Cameroon, flower insect visitations were monitored for Blackberry nightshade (Mamoudou). \
     Honey bees were a dominant visitor, but other bee types were also observed, including bees related to the Blue banded bee \
     found in Australia. \
     Other insects included flies, ants, various types of wasps including a type of paper wasp, and butterflies. ",
@@ -163,7 +163,7 @@ const shade = {
     links: [
         'Weeds of Australia', 'https://keyserver.lucidcentral.org/weeds/data/media/Html/solanum_nigrum.htm', 
         'UNE', 'https://www.une.edu.au/__data/assets/pdf_file/0020/305471/une-weeds-blackberry-nightshade.pdf',
-	'Mamoudou', 'https://www.ajol.info/index.php/ijbcs/article/view/214142'],
+        'Mamoudou', 'https://www.ajol.info/index.php/ijbcs/article/view/214142'],
     pest_images: [
     "<img title='Click to enlarge (Green potato bug)' src='./images/GPB.png'>", 
     "<img title='Click to enlarge (Green vegetable bug)' src='./images/GVB-1.png'>", 
@@ -240,6 +240,41 @@ const capsella = {
         "<img title='(Hoverfly - photo by ABC, Libbi Gorr)' src='./images/hoverfly.png'>"
     ]
 }
+
+const  coronopus = {
+	common_name: 'Lesser swinecress',
+    other_common_names: ['Swine Wartcress', 'lesser wart-cress.'],
+    botanical_name: '<em>Coronopus didymus</em> - (L.)Sm. (synonym <em>Lepidium didymum</em> L.',
+    family: 'Brassicaceae',
+    uses: 'Reported to be edible.',
+    cultural: 'Lesser swinecress is an annual or biennial herb, branching and forming a slender taproot. \
+    Prior to branching, a rosette is formed (see image), and later growing prostrate or semi-erect stems to 30 cm. \
+    It is a common weed of cultivation, disturbed areas and gardens. Lesser swinecress has been found to tolerate \
+    high levels of lead in the soil, which accumulates in leaves and roots (mainly roots). While this plant is reported \
+    to be self fertile, it is also reported to be a source of pollen and nector for insects. A published articled \
+    reported ant pollination to occur in this plant \
+    (<a href="https://books.google.com.au/books?id=vl_oCAAAQBAJ&pg=PA79&lpg=PA79&dq=coronopus+didymus+and+pollination&source=bl&ots=sfG1fsZZo_&sig=ACfU3U3ZKhPN4f9m7VdkOk6PYe4Aqam6Ew&hl=en&sa=X&ved=2ahUKEwiYkoTklOj4AhUE7zgGHbZqD3k4FBDoAXoECBIQAw#v=onepage&q=coronopus%20didymus%20and%20pollination&f=false">\
+    Link</a>).',
+    hosts: 'Various viruses are known to impact lesser swinecress, some of these include \
+    beet western yellows virus/polerovirus, alfalfa mosaic virus cucumber mosaic virus.  \
+    Lesser swinecress is a reported host for the following aphids: <em>Aphis gossypii</em> (melon or cotton aphid), \
+    <em>Brachycaudus helichrysi</em> (Plum leafcurl aphid), <em>Lipaphis erysimi</em> (Mustard aphid), <em>Myzus ascalonicus</em> (Shallot aphid), \
+    <em>Myzus cerasi</em> (Black cherry aphid), <em>Myzus ornatus</em> (Ornate aphid), <em>Myzus persicae</em> (Green peach aphid), \
+    <em>Pemphigus populitransversus</em> (source - aphids on worlds plants)',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form<br><br>',
+    links: [
+        'PFAF', 'https://pfaf.org/user/Plant.aspx?LatinName=Coronopus+didymus',
+        'Aphids on worlds plants', 'http://www.aphidsonworldsplants.info/C_HOSTS_Lar-Lim.htm#Lepidium',
+        'LUCIDCENTRAL', 'https://keyserver.lucidcentral.org/key-server/data/000d050f-080b-4702-8c0d-0504050f000a/media/Html/coronopusdidymus.htm',
+        'Useful tropical plants', 'http://tropical.theferns.info/viewtropical.php?id=Lepidium+didymum',
+    ],
+    pest_images: [
+        "<img title='Melon or cotton aphid. Photograph by J.L. Castner, University of Florida' src='./images/melon-aphid.png' alt='Image of cotton aphid'>", 
+        "<img title='Plum leafcurl aphid. Photograph by Jennie Widdowson (CC-BY) - https://www.ala.org.au/' src='./images/plum-aphid.png' alt='image of a plum leafcurl aphid'>", 
+        "<img title='Shallot aphid. Photo sourced from InfluentialPoints.com (CC BY 3.0) - https://influentialpoints.com/Gallery/Myzus_ascalonicus_Shallot_aphid.htm' src='./images/shallot-aphid.png' alt='image of shallot aphid'>"
+    ]
+}
+
 const heliotropium = {
 	common_name: 'Blue Heliotrope',
     other_common_names: ['Clasping heliotrope', 'Creeping Heliotrope'],
@@ -333,7 +368,7 @@ const cobblers = {
         'Cabi', 'https://www.cabi.org/isc/datasheet/9148', 
         'Victoria Agriculture', 'http://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/invasive_cobblers_pegs'],
     pest_images: [
-        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.png'>", 
+        "<img title='Click to enlarge (aphids)' src='./images/Bidens_aphids.jpg'>", 
         "<img title='Click to enlarge' src=''>", 
         "<img title='Click to enlarge' src=''>"]
 }
@@ -713,7 +748,7 @@ const malvastrum = {
     and occur singly or small groups in the leaf forks. Reproduction is via seed. \
     Prickly malvastrum is a common weed of pastures, crops, roadsides, gardens, footpaths, parks, disturbed sites and waste areas. \
     It is reported to be tolerant to herbicides.',
-    hosts: 'Prickly malvastrum is a host for Green vegetable bug (Hawaii - Jones et al., 2001). \
+    hosts: 'In a study in Hawaii, Green vegetable bugs were found on Prickly malvastrum (Hawaii - Jones et al., 2001). \
     It has also been associated with the Green-belly stink bug (Smaniotto). \
     Cotton bunchy top (CBT) virus (source - crdc.com.au). Hollyhock leaf curl virus (Pakistan). \
     <em>Phenacoccus solenopsis</em> (cotton mealybug), <em>Coccidohystrix insolita</em> (eggplant mealybug), Sida yellow vein virus. \
@@ -897,20 +932,6 @@ const sonchus = {
     ]
 }
 
-const test = {
-	common_name: '',
-    other_common_names: [],
-    botanical_name: '',
-    family: '',
-    uses: '',
-    cultural: '',
-    hosts: '',
-    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
-    links: [],
-    pest_images: []
-}
-
-
 /*
 const template = {
 	common_name: '',
@@ -927,8 +948,11 @@ const template = {
 
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
-    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo, 
-	crotalaria, sonchus];
+    Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo,
+    crotalaria, sonchus, coronopus];
+
+const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
+console.log(testprint);
 
 
 const comName = document.getElementById('common');
