@@ -45,9 +45,9 @@ function mallow() {
     pic3.innerHTML = `${Mallow.pest_images[0]}`;
     pic2.innerHTML = `${Mallow.pest_images[1]}`;
     pic1.innerHTML = `${Mallow.pest_images[2]}`;
-    document.getElementById('insect3').innerHTML = `${Mallow.pest_images[0]}`;
-    document.getElementById('insect2').innerHTML = `${Mallow.pest_images[1]}`;
-    document.getElementById('insect1').innerHTML = `${Mallow.pest_images[2]}`;
+    //document.getElementById('insect3').innerHTML = `${Mallow.pest_images[0]}`;
+    //document.getElementById('insect2').innerHTML = `${Mallow.pest_images[1]}`;
+    //document.getElementById('insect1').innerHTML = `${Mallow.pest_images[2]}`;
 }
 function nightshade() {
     document.querySelector('.display').style.visibility = 'visible';
