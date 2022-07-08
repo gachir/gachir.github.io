@@ -28,6 +28,7 @@ const info22 = document.getElementById('info-22');
 const info23 = document.getElementById('info-23');
 const info24 = document.getElementById('info-24');
 const info25 = document.getElementById('info-25');
+const info26 = document.getElementById('info-26');
 
 
 
@@ -577,6 +578,27 @@ function Sonchus() {
     document.getElementById('insect3').innerHTML = `${sonchus.pest_images[0]}`;
     document.getElementById('insect2').innerHTML = `${sonchus.pest_images[1]}`;
     document.getElementById('insect1').innerHTML = `${sonchus.pest_images[2]}`;
+}
+
+function Coronopus() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${coronopus.common_name}</h1> <h3>(${coronopus.botanical_name})</h3> <p> \
+    ${coronopus.cultural}</p><p>${coronopus.hosts}.</p><p>Uses: ${coronopus.uses}</p>\
+    <p>Links: <a href='${coronopus.links[1]}' target='_blank'>${coronopus.links[0]}</a></p>\
+    <p>Links: <a href='${coronopus.links[3]}' target='_blank'>${coronopus.links[2]}</a></p>\
+    <p>Links: <a href='${coronopus.links[5]}' target='_blank'>${coronopus.links[4]}</a></p>\
+    <p>Links: <a href='${coronopus.links[7]}' target='_blank'>${coronopus.links[6]}</a></p>\
+    
+    <p>Field Observations:</p>\
+    <p>${coronopus.observations}</p>`;
+    
+    pic3.innerHTML = `${coronopus.pest_images[0]}`;
+    pic2.innerHTML = `${coronopus.pest_images[1]}`;
+    pic1.innerHTML = `${coronopus.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${coronopus.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${coronopus.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
 }
 
 
@@ -1752,6 +1774,59 @@ function Sonchus() {
     };    
 })();
 
+/* CORONOPUS     */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_coronopus = ['./images/coronopus-sprawl.png', './images/coronopus-rosette.png'];
+    let images_hover_coronopus = ['Coronopus didymus - sprawling plant', 'Coronopus didymus - rosette' ];
+    let images_text_coronopus = ['Coronopus didymus - sprawling plant', 'Coronopus didymus - rosette']
+    let im_len = images_coronopus.length;
+
+    document.getElementById('coro').onclick = function() { 
+        let display_image = document.getElementById('image1-coro');
+        let hide_button = document.getElementById('hide-coro');
+        let move_button = document.getElementById('image2-coro');
+        let image_text = document.getElementById('image-text-coro');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let coronopus_ol = document.getElementById('image2-coro');
+    coronopus_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-coro');
+        let display_image = document.getElementById('image1-coro');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_coronopus[img_image++]
+        display_image.title = images_hover_coronopus[img_title++]
+        image_text.innerText = images_text_coronopus[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-coro').onclick = function() {  
+        let display_image = document.getElementById('image1-coro');
+        let hide_button= document.getElementById('hide-coro');  
+        let move_button = document.getElementById('image2-coro');
+        let image_text = document.getElementById('image-text-coro');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
 /* TEST CODE TO MOVE THROUGH PHOTOS */
 /* CROTALARIA      */
 /*et img_now = 0;
@@ -1791,8 +1866,24 @@ let im_len = images.length;
 })();   */   
 
 
+/*(function() {   
+    document.getElementById('image-1').onclick = function() { 
+        let display_image = document.getElementById('pest1');
+        let hide_button = document.getElementById('hide-pest1');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+    };
+    
+    document.getElementById('hide-pest1').onclick = function() {  
+        let display_image = document.getElementById('image-1');
+        let hide_button= document.getElementById('hide-pest1');  
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden'; 
+    };    
+})();*/
+
 /* pest 1    */
-(function() {    
+/*(function() {    
     var dialog = document.getElementById('pest1'); 
     document.getElementById('image-1').onclick = function() {    
         dialog.showModal();    
@@ -1801,10 +1892,10 @@ let im_len = images.length;
     document.getElementById('hide-pest1').onclick = function() {    
         dialog.close();    
     };    
-})();
+})();*/
 
 /* pest 2    */
-(function() {    
+/*(function() {    
     var dialog = document.getElementById('pest2'); 
     document.getElementById('image-2').onclick = function() {    
         dialog.showModal();    
@@ -1816,7 +1907,7 @@ let im_len = images.length;
 })();
 
 /* pest 3    */
-(function() {    
+/*(function() {    
     var dialog = document.getElementById('pest3'); 
     document.getElementById('image-3').onclick = function() {    
         dialog.showModal();    
@@ -1825,7 +1916,7 @@ let im_len = images.length;
     document.getElementById('hide-pest3').onclick = function() {    
         dialog.close();    
     };    
-})();
+})();*/
 
 
 
@@ -1929,5 +2020,9 @@ info24.addEventListener('click', function(e) {
 info25.addEventListener('click', function(e) {
     e.preventDefault();
     Sonchus();
+})
+info26.addEventListener('click', function(e) {
+    e.preventDefault();
+    Coronopus();
 })
 
