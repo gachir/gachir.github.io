@@ -143,6 +143,26 @@ button {
     border: 2px white inset;
 }
 
+@media only screen and (max-height: 750px) {
+    .display {
+        height: 450px;
+        top: 120px;
+    }
+    .app_pest-im:active {
+        border: 5px yellow inset;
+        position:absolute;
+        margin-top: -70%;
+        width: 75%;
+        height: 50%;
+    }
+}
+@media only screen and (max-height: 550px) {
+    .display {
+        height: 350px;
+    }
+    
+}
+
 @media only screen and (max-width: 1000px) {
     .image-container-dimensions {
         width: 450px;
