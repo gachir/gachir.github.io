@@ -16,14 +16,6 @@
     width: 25%;
 }
 
-.app_pest-im:active {
-    border: 5px yellow inset;
-    position:absolute;
-    margin-top: -60%;
-    width: 70%;
-    height: 60%;
-}
-
 .app_pest-im img {
     height: 100%;
     width: 100%;
@@ -38,6 +30,7 @@
     border-radius: 10px;
     text-align: center;
 }
+
 
 button {
     background-color: white;
@@ -148,20 +141,15 @@ button {
         height: 450px;
         top: 120px;
     }
-    .app_pest-im:active {
-        border: 5px yellow inset;
-        position:absolute;
-        margin-top: -50%;
-        width: 70%;
-        height: 60%;
-    }
 }
+
 @media only screen and (max-height: 550px) {
     .display {
         height: 350px;
     }
     
 }
+
 
 @media only screen and (max-width: 1000px) {
     .image-container-dimensions {
@@ -232,15 +220,18 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro {
     margin-top: 55%;
     }
-}
-
-@media only screen and (max-width: 870px) {
     .image-container-dimensions {
         width: 400px;
         height: 400px;
         margin-left: 60%;
     }
+    .pest-im {
+        /* border: 1px black solid;*/
+         width: 30%;
+         height: 50%;
+    }
 }
+
 @media only screen and (max-width: 550px) {
     .image-container-dimensions {
         width: 350px;
@@ -268,7 +259,12 @@ button {
 #image-text-indi, #image-text-crot, #image-text-cord, #image-text-coro {
         font-size: 0.4rem;
         margin-top: 50%;
-}
+    }
+    .app_pest-im {
+        /* border: 1px black solid;*/
+         width: 65px;
+         height: 75px;
+    }
 }
 
 @media only screen and (max-width: 470px) {
