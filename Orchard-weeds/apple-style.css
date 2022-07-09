@@ -1,3 +1,31 @@
+.app_pest-im {
+    border: 1px black solid;
+    width: 25%;
+}
+
+.app_pest-im:active {
+    border: 5px yellow inset;
+    position:absolute;
+    margin-top: -60%;
+    width: 80%;
+    height: 80%;
+}
+
+.app_pest-im img {
+    height: 100%;
+    width: 100%;
+}
+
+.enlarge {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5px 5px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
 button {
     background-color: white;
 }
