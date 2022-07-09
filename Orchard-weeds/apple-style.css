@@ -20,8 +20,8 @@
     border: 5px yellow inset;
     position:absolute;
     margin-top: -60%;
-    width: 75%;
-    height: 75%;
+    width: 70%;
+    height: 60%;
 }
 
 .app_pest-im img {
@@ -151,9 +151,9 @@ button {
     .app_pest-im:active {
         border: 5px yellow inset;
         position:absolute;
-        margin-top: -70%;
-        width: 75%;
-        height: 50%;
+        margin-top: -50%;
+        width: 70%;
+        height: 60%;
     }
 }
 @media only screen and (max-height: 550px) {
