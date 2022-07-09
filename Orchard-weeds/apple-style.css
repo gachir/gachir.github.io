@@ -1,3 +1,16 @@
+.display {
+    width: 45%;
+    height: 525px;
+    border: 1px red solid;
+    position: sticky;
+    margin-left: 5%;
+    background-color: beige;
+    margin-top: 20px;
+    overflow-y: scroll;
+    top: 180px;
+    visibility: hidden;
+}
+
 .app_pest-im {
     border: 1px black solid;
     width: 25%;
@@ -7,8 +20,8 @@
     border: 5px yellow inset;
     position:absolute;
     margin-top: -60%;
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
 }
 
 .app_pest-im img {
