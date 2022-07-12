@@ -286,6 +286,15 @@ button {
          width: 30%;
          height: 50%;
     }
+    #insect-container {
+        position:fixed;
+        width: 300px;
+        height: 300px;
+        visibility: hidden;
+        margin-left: -20%;
+        top: 30%;
+        z-index: 100;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -321,6 +330,9 @@ button {
          width: 65px;
          height: 75px;
     }
+    #insect-container {
+        margin-left: -30%;
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -351,6 +363,14 @@ button {
         font-size: 0.3rem;
         margin-top: 32%;
 }
+}
+
+@media only screen and (max-width: 400px) {
+    #insect-container {
+        margin-left: -40%;
+        width: 250px;
+        height: 250px;
+    }
 }
 
 @media only screen and (max-width: 335px) {
