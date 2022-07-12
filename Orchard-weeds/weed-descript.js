@@ -932,6 +932,80 @@ const sonchus = {
     ]
 }
 
+const cudweed = {
+	common_name: 'Cudweed',
+    other_common_names: [],
+    botanical_name: '<em>Gamochaeta purpurea</em> (L.) Cabrera. synon. <em>Gnaphalium americanum</em> Mill.,<br> \
+    <em>Gamochaeta coarctata</em> (Willd.) Kerguelen. \
+    synon. <em>Gamochaeta spicata</em> (Lam.) Cabrera, \
+    <em>Gnaphalium coarctatum</em> Willd.,\
+    <br> <em>Gamochaeta pensylvanica</em> (Willd.) Cabrera. synon. \
+    <em>Gnaphalium pensylvanicum</em> Willd.,<br> \
+    <em>Gamochaeta calviceps</em> (Fernald) Cabrera.',
+    family: 'Asteraceae',
+    uses: 'Consumed by some herbivores. Some species species are reported to have medicinal uses. Fibre.',
+    cultural: 'Due to similarities in species, refer to links for identification. Generally, cudweed is \
+    a common weed of gardens, lawns, roadsides, pastures, orchards, disturbed sites and waste areas. \
+    Cudweed is a short-lived (annual or biennial) herbaceous plant that initially forms a basal rosette of leaves, \
+    and later produces upright flowering stems. Cudweed reproduces by seed, with seeds spread by wind, water, \
+    vehicles, animals, and in clothing and contaminated agricultural produce. ',
+    hosts: "Given that cudweed is so widely distributed, there is little information on pest and beneficial \
+    associations. Recorded hosts include, <em>Empoasca fabae</em> - Potato leaf hooper (<em>G. purpurea</em>), \
+    <em>Aphis gossypii</em> (Cotton aphid) \
+    is reported for <em>G. coarctata</em> and <em> G. pensylvanica</em>, while <em>Aulacorthum solani</em> (Foxglove aphid) \
+    is reported for <em>G. pensylanica</em> (<a href='https://books.google.com.au/books?id=UZqkLr9m4GUC&pg=PA474&lpg=PA474&dq=Gamochaeta+calviceps+and+aphids&source=bl&ots=roz0N1Cd39&sig=ACfU3U0seIE8B_SNXHtGmWatpe9Uiu5l8Q&hl=en&sa=X&ved=2ahUKEwiOjc7Mk_D4AhWXzTgGHdU6APcQ6AF6BAgiEAM#v=onepage&q=Gamochaeta%20calviceps%20and%20aphids&f=false'>\
+    Aphids on the World's Herbaceous Plants and Shrubs</a>). The larvae <em>Vanessa kershawi</em> (Australian Painted Lady butterfly) \
+    feed on a variety of Asteraceae species, such as this Cudweed (<em>Gamochaeta coarctata</em>) \
+    -<a href='https://southernforestlife.net/happenings/2017/9/7/c32bwnh1z1qdz04k1m7q0w2gn7slwd'>Link</a>. \
+    Cudweed is also reported to be a host for <em>Vanessa virginiensis</em> (American Lady Butterfly). Other types of \
+    cudweed are reported to attract a range of insects, \
+    including various bee types, wasps and butterflies. ",
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'Discover Life', 'https://www.discoverlife.org',
+        'PlantNet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Gamochaeta~purpurea',
+        'PlantNet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Gamochaeta~pensylvanica',
+        'PlantNet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Gamochaeta~coarctata',
+        'Navasota Examiner', 'https://www.navasotaexaminer.com/article/columns/gamochaeta-coarctata-%E2%80%93-poor-man%E2%80%99s-chewing-gum-down-stuffing'
+    ],
+    pest_images: [
+        "<img title='Copyright Tom Murray (www.discoverlife.org): Potato leafhopper.' src='./images/potato-leafhopper.png'>", 
+        "<img title='a species of aphid' src='./images/aphids.png'>", 
+        "<img title='a species of aphid' src='./images/Bidens_aphids.png'>",
+    ]
+}
+
+const cotula = {
+	common_name: 'Common cotula',
+    other_common_names: ['Carrot weed', 'Annual Buttonweed', 'Australian waterbuttons', 'Annual-buttonweed', "Bachelor's-button"],
+    botanical_name: '<em>Cotula australis</em> (Sieber ex Spreng.) Hook.f.',
+    family: 'Asteraceae',
+    uses: 'Reported to provide nectar to butterflies. Some species of Cotula are reported to have medicinal properties.',
+    cultural: 'As the name suggests, <em>Cotula australis</em> is a native of Australia and New Zealand, but is a common \
+    weed in many parts of the world. It grows in moist, open grassy situations, roadsides, lawns, wall crevices, grassy forests, \
+    cultivated areas and orchards. Common cotula is a small prostrate to ascending annual plant, to 10 cm high, \
+    while flower-heads are hemispherical in shape, pale-yellow to cream, 4-5 mm diameter, and occur on slender stalks. \
+    Flowering typically occurs from winter to spring.',
+    hosts: 'Given that cudweed is so widely distributed, there is little information on pest and beneficial \
+    associations. Known hosts include <em>Albugo tragopogonis</em> (White rust), <em>Desiantha variabilis</em> (Cotula weevil) \
+    (<a href="https://www.tandfonline.com/action/showCitFormats?doi=10.1080/03036758.1977.10427160">DOI</a>) and \
+    Potato virus Y (potato mottle) (Cabi).',
+    observations: 'Please complete the form to add your observations - go to the About page to access the form.<br><br>',
+    links: [
+        'Discover Life', 'https://www.discoverlife.org',
+        'tandfonline', 'https://www.tandfonline.com/doi/pdf/10.1080/03036758.1977.10427160',
+        'PlantNet', 'https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?page=nswfl&lvl=sp&name=Cotula~australis',
+        'Yarra Ranges', 'https://www.yarraranges.vic.gov.au/PlantDirectory/Herbs-Groundcovers/Cotula-australis',
+        'Cabi', 'https://www.cabi.org/isc/datasheet/110399',
+        'Agriculture Victoria', 'https://vro.agriculture.vic.gov.au/dpi/vro/vrosite.nsf/pages/sip_common_cotula'
+    ],
+    pest_images: [
+        "<img title='please upload your observations' alt='please upload your observations' src=''>", 
+        "<img title='please upload your observations' alt='please upload your observations' src=''>", 
+        "<img title='please upload your observations' alt='please upload your observations' src=''>"
+    ]
+}
+
 /*
 const template = {
 	common_name: '',
@@ -949,7 +1023,7 @@ const template = {
 const combined = [Mallow, shade, Gomphrena, purpletop, crasso, amaranth, tropChick, 
     capsella, heliotropium, khaki, fleabane, cobblers, potato_weed, willowHerb, BalloonCotton,
     Brazilian_nightshade, mitracarpus, richardia, sida_acuta, sida_rhombifolia, sida_cordifolia, malvastrum, indigo,
-    crotalaria, sonchus, coronopus];
+    crotalaria, sonchus, coronopus, cudweed, cotula];
 
 const testprint = `${JSON.stringify(Mallow)}, ${JSON.stringify(shade)}`;
 console.log(testprint);
