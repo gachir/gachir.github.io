@@ -29,6 +29,8 @@ const info23 = document.getElementById('info-23');
 const info24 = document.getElementById('info-24');
 const info25 = document.getElementById('info-25');
 const info26 = document.getElementById('info-26');
+const info27 = document.getElementById('info-27');
+const info28 = document.getElementById('info-28');
 
 
 
@@ -45,9 +47,9 @@ function mallow() {
     pic3.innerHTML = `${Mallow.pest_images[0]}`;
     pic2.innerHTML = `${Mallow.pest_images[1]}`;
     pic1.innerHTML = `${Mallow.pest_images[2]}`;
-    //document.getElementById('insect3').innerHTML = `${Mallow.pest_images[0]}`;
-    //document.getElementById('insect2').innerHTML = `${Mallow.pest_images[1]}`;
-    //document.getElementById('insect1').innerHTML = `${Mallow.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${Mallow.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${Mallow.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${Mallow.pest_images[2]}`;
 }
 function nightshade() {
     document.querySelector('.display').style.visibility = 'visible';
@@ -232,6 +234,7 @@ function Fleabane() {
     ${fleabane.cultural}</p><p>${fleabane.hosts}.</p><p>Uses: ${fleabane.uses}</p>\
     <p>Links: <a href='${fleabane.links[1]}' target='_blank'>${fleabane.links[0]}</a></p>\
     <p>Links: <a href='${fleabane.links[3]}' target='_blank'>${fleabane.links[2]}</a></p>\
+    <p>Links: <a href='${fleabane.links[5]}' target='_blank'>${fleabane.links[4]}</a></p>\
     <p>Field Observations:</p>\
     <p>${fleabane.observations}</p>`;
     
@@ -599,6 +602,49 @@ function Coronopus() {
     document.getElementById('insect3').innerHTML = `${coronopus.pest_images[0]}`;
     document.getElementById('insect2').innerHTML = `${coronopus.pest_images[1]}`;
     document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
+}
+
+function Cudweed() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${cudweed.common_name}</h1> <h3>(${cudweed.botanical_name})</h3> <p> \
+    ${cudweed.cultural}</p><p>${cudweed.hosts}.</p><p>Uses: ${cudweed.uses}</p>\
+    <p>Links: <a href='${cudweed.links[1]}' target='_blank'>${cudweed.links[0]}</a></p>\
+    <p>Links: <a href='${cudweed.links[3]}' target='_blank'>${cudweed.links[2]}</a></p>\
+    <p>Links: <a href='${cudweed.links[5]}' target='_blank'>${cudweed.links[4]}</a></p>\
+    <p>Links: <a href='${cudweed.links[7]}' target='_blank'>${cudweed.links[6]}</a></p>\
+    <p>Links: <a href='${cudweed.links[9]}' target='_blank'>${cudweed.links[8]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${cudweed.observations}</p>`;
+    
+    pic3.innerHTML = `${cudweed.pest_images[0]}`;
+    pic2.innerHTML = `${cudweed.pest_images[1]}`;
+    pic1.innerHTML = `${cudweed.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cudweed.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cudweed.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cudweed.pest_images[2]}`;
+}
+
+function Cotula() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${cotula.common_name}</h1> <h3>(${cotula.botanical_name})</h3> <p> \
+    ${cotula.cultural}</p><p>${cotula.hosts}.</p><p>Uses: ${cotula.uses}</p>\
+    <p>Links: <a href='${cotula.links[1]}' target='_blank'>${cotula.links[0]}</a></p>\
+    <p>Links: <a href='${cotula.links[3]}' target='_blank'>${cotula.links[2]}</a></p>\
+    <p>Links: <a href='${cotula.links[5]}' target='_blank'>${cotula.links[4]}</a></p>\
+    <p>Links: <a href='${cotula.links[7]}' target='_blank'>${cotula.links[6]}</a></p>\
+    <p>Links: <a href='${cotula.links[9]}' target='_blank'>${cotula.links[8]}</a></p>\
+    <p>Links: <a href='${cotula.links[11]}' target='_blank'>${cotula.links[10]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${cotula.observations}</p>`;
+    
+    pic3.innerHTML = `${cotula.pest_images[0]}`;
+    pic2.innerHTML = `${cotula.pest_images[1]}`;
+    pic1.innerHTML = `${cotula.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cotula.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cotula.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cotula.pest_images[2]}`;
 }
 
 
@@ -1827,6 +1873,112 @@ function Coronopus() {
     };    
 })();
 
+/* CUDWEED     */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_cud = ['./images/cud-flower.png', './images/cud-2.png'];
+    let images_hover_cud = ['Cudweed', 'Cudweed' ];
+    let images_text_cud = ['Cudweed', 'Cudweed']
+    let im_len = images_cud.length;
+
+    document.getElementById('cud').onclick = function() { 
+        let display_image = document.getElementById('image1-cud');
+        let hide_button = document.getElementById('hide-cud');
+        let move_button = document.getElementById('image2-cud');
+        let image_text = document.getElementById('image-text-cud');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let cud_ol = document.getElementById('image2-cud');
+    cud_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-cud');
+        let display_image = document.getElementById('image1-cud');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_cud[img_image++]
+        display_image.title = images_hover_cud[img_title++]
+        image_text.innerText = images_text_cud[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-cud').onclick = function() {  
+        let display_image = document.getElementById('image1-cud');
+        let hide_button= document.getElementById('hide-cud');  
+        let move_button = document.getElementById('image2-cud');
+        let image_text = document.getElementById('image-text-cud');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
+/* COTULA     */
+
+(function() {    
+    let img_image = 0;
+    let img_title = 0;
+    let img_text = 0;
+    let images_cotula = ['./images/cotula-2.png', './images/cotula-1.png'];
+    let images_hover_cotula = ['Common cotula', 'Common cotula' ];
+    let images_text_cotula = ['Common cotula', 'Common cotula']
+    let im_len = images_cotula.length;
+
+    document.getElementById('cotula').onclick = function() { 
+        let display_image = document.getElementById('image1-cotula');
+        let hide_button = document.getElementById('hide-cotula');
+        let move_button = document.getElementById('image2-cotula');
+        let image_text = document.getElementById('image-text-cotula');
+        hide_button.style.visibility = 'visible';     
+        display_image.style.visibility = 'visible';
+        move_button.style.visibility = 'visible';
+        image_text.style.visibility = 'visible';
+    };
+
+    let cotula_ol = document.getElementById('image2-cotula');
+    cotula_ol.addEventListener('click', function() {
+        let image_text = document.getElementById('image-text-cotula');
+        let display_image = document.getElementById('image1-cotula');
+        if (img_image > im_len-1) {
+            img_image = 0;
+        }
+        if (img_title > im_len-1) {
+            img_title = 0;
+        }
+        if (img_text > im_len-1) {
+            img_text = 0;
+        }
+        display_image.src = images_cotula[img_image++]
+        display_image.title = images_hover_cotula[img_title++]
+        image_text.innerText = images_text_cotula[img_text++]
+        image_text.style.fontStyle = 'italic';
+    });
+    
+    document.getElementById('hide-cotula').onclick = function() {  
+        let display_image = document.getElementById('image1-cotula');
+        let hide_button= document.getElementById('hide-cotula');  
+        let move_button = document.getElementById('image2-cotula');
+        let image_text = document.getElementById('image-text-cotula');
+        display_image.style.visibility = 'hidden';  
+        hide_button.style.visibility = 'hidden';
+        move_button.style.visibility = 'hidden';  
+        image_text.style.visibility = 'hidden';
+    };    
+})();
+
 /* TEST CODE TO MOVE THROUGH PHOTOS */
 /* CROTALARIA      */
 /*et img_now = 0;
@@ -1882,6 +2034,70 @@ let im_len = images.length;
     };    
 })();*/
 
+
+(function() {    
+   
+    document.getElementById('image-1').onclick = function() {    
+        let ins1Button = document.getElementById('insectBut-1');
+        let Image__1 = document.getElementById('insect1');
+        let insectCONT = document.getElementById('insect-container');
+        ins1Button.style.visibility = 'visible';  
+        Image__1.style.visibility = 'visible'; 
+        insectCONT.style.visibility = 'visible'; 
+    };
+    
+    document.getElementById('insectBut-1').onclick = function() {
+        let Image__1 = document.getElementById('insect1');
+        let ins1Button = document.getElementById('insectBut-1');
+        let insectCONT = document.getElementById('insect-container');
+        Image__1.style.visibility = 'hidden';
+        ins1Button.style.visibility = 'hidden'; 
+        insectCONT.style.visibility = 'hidden';
+    };   
+})();
+
+(function() {    
+   
+    document.getElementById('image-2').onclick = function() {    
+        let ins1Button = document.getElementById('insectBut-2');
+        let Image__1 = document.getElementById('insect2');
+        let insectCONT = document.getElementById('insect-container');
+        ins1Button.style.visibility = 'visible';  
+        Image__1.style.visibility = 'visible'; 
+        insectCONT.style.visibility = 'visible'; 
+    };
+    
+    document.getElementById('insectBut-2').onclick = function() {
+        let Image__1 = document.getElementById('insect2');
+        let ins1Button = document.getElementById('insectBut-2');
+        let insectCONT = document.getElementById('insect-container');
+        Image__1.style.visibility = 'hidden';
+        ins1Button.style.visibility = 'hidden'; 
+        insectCONT.style.visibility = 'hidden';
+    };   
+})();
+
+(function() {    
+   
+    document.getElementById('image-3').onclick = function() {    
+        let ins1Button = document.getElementById('insectBut-3');
+        let Image__1 = document.getElementById('insect3');
+        let insectCONT = document.getElementById('insect-container');
+        ins1Button.style.visibility = 'visible';  
+        Image__1.style.visibility = 'visible'; 
+        insectCONT.style.visibility = 'visible'; 
+    };
+    
+    document.getElementById('insectBut-3').onclick = function() {
+        let Image__1 = document.getElementById('insect3');
+        let ins1Button = document.getElementById('insectBut-3');
+        let insectCONT = document.getElementById('insect-container');
+        Image__1.style.visibility = 'hidden';
+        ins1Button.style.visibility = 'hidden'; 
+        insectCONT.style.visibility = 'hidden';
+    };   
+})();
+
 /* pest 1    */
 /*(function() {    
     var dialog = document.getElementById('pest1'); 
@@ -1917,6 +2133,7 @@ let im_len = images.length;
         dialog.close();    
     };    
 })();*/
+
 
 
 
@@ -2025,4 +2242,11 @@ info26.addEventListener('click', function(e) {
     e.preventDefault();
     Coronopus();
 })
-
+info27.addEventListener('click', function(e) {
+    e.preventDefault();
+    Cudweed();
+})
+info28.addEventListener('click', function(e) {
+    e.preventDefault();
+    Cotula();
+})
