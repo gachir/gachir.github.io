@@ -29,6 +29,8 @@ const info23 = document.getElementById('info-23');
 const info24 = document.getElementById('info-24');
 const info25 = document.getElementById('info-25');
 const info26 = document.getElementById('info-26');
+const info27 = document.getElementById('info-27');
+const info28 = document.getElementById('info-28');
 
 
 
@@ -601,6 +603,50 @@ function Coronopus() {
     document.getElementById('insect1').innerHTML = `${coronopus.pest_images[2]}`;
 }
 
+function Cudweed() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${cudweed.common_name}</h1> <h3>(${cudweed.botanical_name})</h3> <p> \
+    ${cudweed.cultural}</p><p>${cudweed.hosts}.</p><p>Uses: ${cudweed.uses}</p>\
+    <p>Links: <a href='${cudweed.links[1]}' target='_blank'>${cudweed.links[0]}</a></p>\
+    <p>Links: <a href='${cudweed.links[3]}' target='_blank'>${cudweed.links[2]}</a></p>\
+    <p>Links: <a href='${cudweed.links[5]}' target='_blank'>${cudweed.links[4]}</a></p>\
+    <p>Links: <a href='${cudweed.links[7]}' target='_blank'>${cudweed.links[6]}</a></p>\
+    <p>Links: <a href='${cudweed.links[9]}' target='_blank'>${cudweed.links[8]}</a></p>\
+    <p>Field Observations:</p>\
+    <p>${cudweed.observations}</p>`;
+    
+    pic3.innerHTML = `${cudweed.pest_images[0]}`;
+    pic2.innerHTML = `${cudweed.pest_images[1]}`;
+    pic1.innerHTML = `${cudweed.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cudweed.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cudweed.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cudweed.pest_images[2]}`;
+}
+
+function Cotula() {
+    document.querySelector('.display').style.visibility = 'visible';
+    description.innerHTML =
+    `<h1>${cotula.common_name}</h1> <h3>(${cotula.botanical_name})</h3> <p> \
+    ${cotula.cultural}</p><p>${cotula.hosts}.</p><p>Uses: ${cotula.uses}</p>\
+    <p>Links: <a href='${cotula.links[1]}' target='_blank'>${cotula.links[0]}</a></p>\
+    <p>Links: <a href='${cotula.links[3]}' target='_blank'>${cotula.links[2]}</a></p>\
+    <p>Links: <a href='${cotula.links[5]}' target='_blank'>${cotula.links[4]}</a></p>\
+    <p>Links: <a href='${cotula.links[7]}' target='_blank'>${cotula.links[6]}</a></p>\
+    <p>Links: <a href='${cotula.links[9]}' target='_blank'>${cotula.links[8]}</a></p>\
+    <p>Links: <a href='${cotula.links[11]}' target='_blank'>${cotula.links[10]}</a></p>\
+    
+    <p>Field Observations:</p>\
+    <p>${cotula.observations}</p>`;
+    
+    pic3.innerHTML = `${cotula.pest_images[0]}`;
+    pic2.innerHTML = `${cotula.pest_images[1]}`;
+    pic1.innerHTML = `${cotula.pest_images[2]}`;
+    document.getElementById('insect3').innerHTML = `${cotula.pest_images[0]}`;
+    document.getElementById('insect2').innerHTML = `${cotula.pest_images[1]}`;
+    document.getElementById('insect1').innerHTML = `${cotula.pest_images[2]}`;
+}
+
 
 /*      POPUP BOXES FOR IMAGES      */
 /*  MALLOW  */ 
@@ -904,6 +950,31 @@ function Coronopus() {
     };    
 })();
 
+/* CUDWEED     */
+(function() {    
+    var dialog = document.getElementById('cudW'); 
+    document.getElementById('cud').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-cud').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
+/* COTULA     */
+(function() {    
+    var dialog = document.getElementById('cotulA'); 
+    document.getElementById('cotula').onclick = function() {    
+        dialog.showModal();    
+    };
+    
+    document.getElementById('hide-cotula').onclick = function() {    
+        dialog.close();    
+    };    
+})();
+
+
 
 /* TEST CODE TO MOVE THROUGH PHOTOS */
 /* CROTALARIA      */
@@ -1086,4 +1157,12 @@ info25.addEventListener('click', function(e) {
 info26.addEventListener('click', function(e) {
     e.preventDefault();
     Coronopus();
+})
+info27.addEventListener('click', function(e) {
+    e.preventDefault();
+    Cudweed();
+})
+info28.addEventListener('click', function(e) {
+    e.preventDefault();
+    Cotula();
 })
