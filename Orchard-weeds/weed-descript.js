@@ -971,7 +971,7 @@ const cudweed = {
     pest_images: [
         "<img title='Copyright Tom Murray (www.discoverlife.org): Potato leafhopper.' src='./images/potato-leafhopper.png'>", 
         "<img title='a species of aphid' src='./images/cud-aphid.png'>", 
-        "<img title='a species of aphid' src='./images/cud-aphid-1s.png'>",
+        "<img title='a species of aphid' src='./images/cud-aphid-1.png'>",
     ]
 }
 
