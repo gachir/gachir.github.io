@@ -758,9 +758,9 @@ function Cotula() {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_thick = ['./images/thickhead.png'];
-    let images_hover_thick = ['Crassocephalum crepidioides'];
-    let images_text_thick = ['Crassocephalum crepidioides']
+    let images_thick = ['./images/thickhead.png', './images/thickhead-pot.png', './images/thickhead-1.png'];
+    let images_hover_thick = ['Crassocephalum crepidioides', 'Crassocephalum crepidioides', 'Crassocephalum crepidioides'];
+    let images_text_thick = ['Crassocephalum crepidioides', 'Crassocephalum crepidioides', 'Crassocephalum crepidioides']
     let im_len = images_thick.length;
     let display_image = document.getElementById('image1-thick');
     let hide_button = document.getElementById('hide-thick');
