@@ -1218,9 +1218,9 @@ function Cotula() {
     let img_image = 0;
     let img_title = 0;
     let img_text = 0;
-    let images_pot = ['./images/potato-weed.png'];
-    let images_hover_pot = ['Galinsoga parviflora'];
-    let images_text_pot = ['Galinsoga parviflora']
+    let images_pot = ['./images/potato-weed-1.png', './images/potato-weed.png'];
+    let images_hover_pot = ['Galinsoga parviflora', 'Galinsoga parviflora'];
+    let images_text_pot = ['Galinsoga parviflora', 'Galinsoga parviflora']
     let im_len = images_pot.length;
     let display_image = document.getElementById('image1-pot');
     let hide_button = document.getElementById('hide-pot');
